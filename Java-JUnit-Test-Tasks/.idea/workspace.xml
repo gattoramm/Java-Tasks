@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97377233-cdef-4cdf-9aaf-c8bb9f93465e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#USE_PROJECT_JDK" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="azul-16" />
+  </component>
+  <component name="ProjectId" id="1qpWskKqcF7Eg59ta5k1lO5lqgA" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/myprog/java/coursera/algorithm1/hello/hello" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Baeldung.Hamcrest.practice02_ObjectMatcher_hasToString" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Rarsaev\github_proj\Java-JUnit-Test-Tasks\src\Udemi\JUnit5_Quick_Start\practice5_beforeAll_afterAll" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StringMatcherTest">
+    <configuration name="CollectionMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-JUnit-Test-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baeldung.Hamcrest.practice04_CollectionMatcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice04_CollectionMatcher" />
+      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice04_CollectionMatcher.CollectionMatcherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberMatchesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-JUnit-Test-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baeldung.Hamcrest.practice05_NumberMatcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice05_NumberMatcher" />
+      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice05_NumberMatcher.NumberMatchesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-JUnit-Test-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baeldung.Hamcrest.practice01_ExampleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice01_ExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice01_ExampleTest.StringMatcherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-JUnit-Test-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baeldung.Hamcrest.practice06_TextMatcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice06_TextMatcher" />
+      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice06_TextMatcher.TextMatcherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextMatcherTest.given2Strings_whenEqualRegardlessWhiteSpace_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-JUnit-Test-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baeldung.Hamcrest.practice06_TextMatcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice06_TextMatcher" />
+      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice06_TextMatcher.TextMatcherTest" />
+      <option name="METHOD_NAME" value="given2Strings_whenEqualRegardlessWhiteSpace_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StringMatcherTest" />
+        <item itemvalue="JUnit.TextMatcherTest.given2Strings_whenEqualRegardlessWhiteSpace_thenCorrect" />
+        <item itemvalue="JUnit.TextMatcherTest" />
+        <item itemvalue="JUnit.NumberMatchesTest" />
+        <item itemvalue="JUnit.CollectionMatcherTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97377233-cdef-4cdf-9aaf-c8bb9f93465e" name="Default Changelist" comment="" />
+      <created>1617777222786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617777222786</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
