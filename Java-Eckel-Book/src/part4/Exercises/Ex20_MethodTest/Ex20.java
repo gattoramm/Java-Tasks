@@ -1,4 +1,4 @@
-package part4.Ex20_MethodTest;
+package part4.Exercises.Ex20_MethodTest;
 
 // Измените метод test, чтобы он получал два дополнительных аргумента begin и end,
 // а значение testval проверялось на принадлежность к диапазону [begin, end]

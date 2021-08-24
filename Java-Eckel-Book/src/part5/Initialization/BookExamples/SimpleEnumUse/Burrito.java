@@ -1,4 +1,4 @@
-package part5.Initialization.SimpleEnumUse;
+package part5.Initialization.BookExamples.SimpleEnumUse;
 
 public class Burrito {
     Spiciness degree;

@@ -1,4 +1,4 @@
-package part5.Initialization.OptionalTrailingArguments;
+package part5.Initialization.BookExamples.OptionalTrailingArguments;
 
 public class OptionalTrailingArguments {
     static void f(int required, String... trailing) {

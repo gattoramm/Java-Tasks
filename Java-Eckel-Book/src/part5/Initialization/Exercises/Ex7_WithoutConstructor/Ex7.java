@@ -1,4 +1,4 @@
-package part5.Initialization.Ex7_WithoutConstructor;
+package part5.Initialization.Exercises.Ex7_WithoutConstructor;
 
 // Создайте классбез конструктора. Создайте объект этого класса
 // в методе main(), чтобы удостовериться, что конструктор по

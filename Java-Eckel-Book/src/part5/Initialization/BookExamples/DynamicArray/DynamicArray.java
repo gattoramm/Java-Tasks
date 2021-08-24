@@ -1,4 +1,4 @@
-package part5.Initialization.DynamicArray;
+package part5.Initialization.BookExamples.DynamicArray;
 
 public class DynamicArray {
     public static void main(String[] args) {

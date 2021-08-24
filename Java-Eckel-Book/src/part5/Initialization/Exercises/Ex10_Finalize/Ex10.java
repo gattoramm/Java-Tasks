@@ -1,4 +1,4 @@
-package part5.Initialization.Ex10_Finalize;
+package part5.Initialization.Exercises.Ex10_Finalize;
 
 class SomeClass {
     public void finalize() {

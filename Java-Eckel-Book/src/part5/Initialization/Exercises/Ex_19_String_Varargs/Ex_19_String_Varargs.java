@@ -1,4 +1,4 @@
-package part5.Initialization.Ex_19_String_Varargs;
+package part5.Initialization.Exercises.Ex_19_String_Varargs;
 
 public class Ex_19_String_Varargs {
 

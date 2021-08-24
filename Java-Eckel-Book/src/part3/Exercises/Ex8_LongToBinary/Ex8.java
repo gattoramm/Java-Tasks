@@ -1,4 +1,4 @@
-package part3.Ex8_LongToBinary;
+package part3.Exercises.Ex8_LongToBinary;
 
 public class Ex8 {
     public static void main(String[] args) {

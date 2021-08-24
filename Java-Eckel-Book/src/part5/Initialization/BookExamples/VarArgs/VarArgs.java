@@ -1,4 +1,4 @@
-package part5.Initialization.VarArgs;
+package part5.Initialization.BookExamples.VarArgs;
 
 class A { int i; }
 

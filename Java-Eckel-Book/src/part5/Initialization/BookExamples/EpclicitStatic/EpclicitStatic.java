@@ -1,4 +1,4 @@
-package part5.Initialization.EpclicitStatic;
+package part5.Initialization.BookExamples.EpclicitStatic;
 
 
 class Cup {

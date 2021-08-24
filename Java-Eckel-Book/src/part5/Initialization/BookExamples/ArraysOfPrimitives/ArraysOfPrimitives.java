@@ -1,4 +1,4 @@
-package part5.Initialization.ArraysOfPrimitives;
+package part5.Initialization.BookExamples.ArraysOfPrimitives;
 
 public class ArraysOfPrimitives {
     public static void main(String[] args) {

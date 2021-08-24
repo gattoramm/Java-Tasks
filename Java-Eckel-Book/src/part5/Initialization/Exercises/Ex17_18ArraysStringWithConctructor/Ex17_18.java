@@ -1,4 +1,4 @@
-package part5.Initialization.Ex17_18ArraysStringWithConctructor;
+package part5.Initialization.Exercises.Ex17_18ArraysStringWithConctructor;
 
 public class Ex17_18 {
 

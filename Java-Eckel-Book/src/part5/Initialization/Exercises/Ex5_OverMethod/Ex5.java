@@ -1,4 +1,4 @@
-package part5.Initialization.Ex5_OverMethod;
+package part5.Initialization.Exercises.Ex5_OverMethod;
 
 // Создайте класс Dog с перегруженным методом bark(). Метод должен быть
 // перегружен для разных примитивных типовданных с целью вывода сообщений

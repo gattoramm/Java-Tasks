@@ -1,4 +1,4 @@
-package part5.Initialization.Ex4_OverConstructors;
+package part5.Initialization.Exercises.Ex4_OverConstructors;
 
 // Создайте класс с конструктором по умолчанию (без параметров), который выводит
 // на экран сообщение. Добавьте перегруженный конструктор, принимающий в качестве

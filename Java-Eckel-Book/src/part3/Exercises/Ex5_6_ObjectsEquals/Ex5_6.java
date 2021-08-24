@@ -1,4 +1,4 @@
-package part3.Ex5_6_ObjectsEquals;
+package part3.Exercises.Ex5_6_ObjectsEquals;
 
 class Dog {
     String name, says;

@@ -1,4 +1,4 @@
-package part3.Ex14_StringOperations;
+package part3.Exercises.Ex14_StringOperations;
 
 // Напишите метод, который получает два аргумента String, выполняет с ними
 // все операции логических сравнений и выводит результаты. Для операций ==

@@ -1,4 +1,4 @@
-package part5.Initialization.Ex16_ArraysString;
+package part5.Initialization.Exercises.Ex16_ArraysString;
 
 public class Ex16_ArraysString {
     public static void main(String[] args) {

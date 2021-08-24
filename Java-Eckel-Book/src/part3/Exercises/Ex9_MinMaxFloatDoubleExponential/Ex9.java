@@ -1,4 +1,4 @@
-package part3.Ex9_MinMaxFloatDoubleExponential;
+package part3.Exercises.Ex9_MinMaxFloatDoubleExponential;
 
 // Выведите наибольшее и наименьшее число в экспоненциальной
 // записи для типов float и double

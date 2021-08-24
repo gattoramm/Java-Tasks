@@ -1,4 +1,4 @@
-package part5.Initialization.SimpleEnumUse;
+package part5.Initialization.BookExamples.SimpleEnumUse;
 
 public class SimpleEnumUse {
     public static void main(String[] args) {

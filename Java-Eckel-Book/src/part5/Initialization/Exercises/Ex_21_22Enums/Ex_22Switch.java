@@ -1,4 +1,4 @@
-package part5.Initialization.Ex_21_22Enums;
+package part5.Initialization.Exercises.Ex_21_22Enums;
 
 public class Ex_22Switch {
     Money money;

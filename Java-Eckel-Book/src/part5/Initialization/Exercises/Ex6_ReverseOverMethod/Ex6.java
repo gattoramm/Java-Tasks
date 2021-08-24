@@ -1,4 +1,4 @@
-package part5.Initialization.Ex6_ReverseOverMethod;
+package part5.Initialization.Exercises.Ex6_ReverseOverMethod;
 
 // Создайте класс Dog с перегруженным методом bark(). Метод должен быть
 // перегружен для разных примитивных типовданных с целью вывода сообщений

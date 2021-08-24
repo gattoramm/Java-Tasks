@@ -1,4 +1,4 @@
-package part5.Initialization.StaticInitialization;
+package part5.Initialization.BookExamples.StaticInitialization;
 
 // Указание значений по умолчанию в определении класса
 

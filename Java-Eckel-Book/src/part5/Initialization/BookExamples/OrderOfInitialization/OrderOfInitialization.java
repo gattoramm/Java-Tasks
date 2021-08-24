@@ -1,4 +1,4 @@
-package part5.Initialization.OrderOfInitialization;
+package part5.Initialization.BookExamples.OrderOfInitialization;
 
 // Демонстрирует порядок инициализации
 // При вызове конструктора для создания объекта

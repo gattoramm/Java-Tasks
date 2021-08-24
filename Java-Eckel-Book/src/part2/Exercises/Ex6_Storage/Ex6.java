@@ -1,4 +1,4 @@
-package part2.Ex6_Storage;
+package part2.Exercises.Ex6_Storage;
 
 public class Ex6 {
 

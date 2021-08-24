@@ -1,4 +1,4 @@
-package part5.Initialization.TerminaionCondition;
+package part5.Initialization.BookExamples.TerminaionCondition;
 
 // Использование finalize() для выявления объекта,
 // не осуществившего необходимой финализации.

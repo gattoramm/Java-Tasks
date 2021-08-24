@@ -1,4 +1,4 @@
-package part4.Ex16_RandomInt;
+package part4.Exercises.Ex16_RandomInt;
 
 //Напишите программу, которая генерирует 25 случайных значений типа int.
 // Для каждого значения команда if-else сообщает, в каком отношении оно

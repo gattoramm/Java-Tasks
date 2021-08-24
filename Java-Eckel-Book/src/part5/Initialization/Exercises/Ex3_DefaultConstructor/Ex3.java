@@ -1,4 +1,4 @@
-package part5.Initialization.Ex3_DefaultConstructor;
+package part5.Initialization.Exercises.Ex3_DefaultConstructor;
 
 // Создайте класс с конструктором по умолчанию (без параметров), который выводит
 // на экран сообщение. Создайте объект этого класса

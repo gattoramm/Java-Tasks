@@ -1,4 +1,4 @@
-package part4.Ex15_100nums;
+package part4.Exercises.Ex15_100nums;
 
 public class Ex15 {
     public static void main(String[] args) {

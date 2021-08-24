@@ -1,4 +1,4 @@
-package part5.Initialization.Ex2_TwoObjConstrAndInit;
+package part5.Initialization.Exercises.Ex2_TwoObjConstrAndInit;
 
 //Создайте класс с полем String, инизиализируемым в точке определения,
 // и другим полем, инизиализируемым конструктором. Чем отличаются эти

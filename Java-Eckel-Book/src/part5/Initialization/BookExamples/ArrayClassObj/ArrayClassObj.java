@@ -1,4 +1,4 @@
-package part5.Initialization.ArrayClassObj;
+package part5.Initialization.BookExamples.ArrayClassObj;
 
 import java.util.Arrays;
 import java.util.Random;

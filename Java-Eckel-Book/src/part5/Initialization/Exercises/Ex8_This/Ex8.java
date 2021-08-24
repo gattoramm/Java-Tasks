@@ -1,4 +1,4 @@
-package part5.Initialization.Ex8_This;
+package part5.Initialization.Exercises.Ex8_This;
 
 // Создайте классс двумя методами. В первом методе дважды вызовите второй
 // метод: один раз без ключевого слова this, а во второй с this - просто

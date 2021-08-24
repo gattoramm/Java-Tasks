@@ -1,4 +1,4 @@
-package part4.control;
+package part4.BookExamples.control;
 
 public class WhileTest {
     static boolean condition() {

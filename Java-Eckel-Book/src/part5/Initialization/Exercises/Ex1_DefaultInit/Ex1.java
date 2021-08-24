@@ -1,4 +1,4 @@
-package part5.Initialization.Ex1_DefaultInit;
+package part5.Initialization.Exercises.Ex1_DefaultInit;
 
 //Создайте класс с неинициализированной ссылкой на String.
 // Покажите, что Java инициализирует ссылку значением null

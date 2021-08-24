@@ -1,4 +1,4 @@
-package part5.Initialization.VarArgs;
+package part5.Initialization.BookExamples.VarArgs;
 
 public class OverloadingVarargs {
     static void f(Character... args) {

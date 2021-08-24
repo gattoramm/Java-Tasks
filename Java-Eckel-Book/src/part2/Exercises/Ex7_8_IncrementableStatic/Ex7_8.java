@@ -1,4 +1,4 @@
-package part2.Ex7_8_IncrementableStatic;
+package part2.Exercises.Ex7_8_IncrementableStatic;
 
 public class Ex7_8 {
     static class StaticTest {

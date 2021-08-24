@@ -1,4 +1,4 @@
-package part5.Initialization.Ex9_ThisConstructor;
+package part5.Initialization.Exercises.Ex9_ThisConstructor;
 
 // Подготовьте класс с двумя (перегруженными) конструкторами. Используя
 // ключевое слово this, вызовите второй конструктор из первого.

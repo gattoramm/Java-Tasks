@@ -1,4 +1,4 @@
-package part2.Ex9_PrimaryType;
+package part2.Exercises.Ex9_PrimaryType;
 
 public class Ex9 {
     public static void main(String[] args) {

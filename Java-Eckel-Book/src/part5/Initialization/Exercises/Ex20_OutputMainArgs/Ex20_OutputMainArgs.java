@@ -1,4 +1,4 @@
-package part5.Initialization.Ex20_OutputMainArgs;
+package part5.Initialization.Exercises.Ex20_OutputMainArgs;
 
 public class Ex20_OutputMainArgs {
     public static void main(String[] args) {

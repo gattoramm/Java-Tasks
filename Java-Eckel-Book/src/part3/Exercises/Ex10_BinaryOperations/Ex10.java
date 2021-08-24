@@ -1,4 +1,4 @@
-package part3.Ex10_BinaryOperations;
+package part3.Exercises.Ex10_BinaryOperations;
 
 public class Ex10 {
     public static void main(String[] args) {

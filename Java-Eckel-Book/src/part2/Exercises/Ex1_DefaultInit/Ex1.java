@@ -1,4 +1,4 @@
-package part2.Ex1_DefaultInit;
+package part2.Exercises.Ex1_DefaultInit;
 
 public class Ex1 {
 
