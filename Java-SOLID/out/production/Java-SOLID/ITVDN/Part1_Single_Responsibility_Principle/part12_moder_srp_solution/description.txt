@@ -1,0 +1,10 @@
+Приложение, которое соблюдает принцип SRP
+
+Разработаем приложение мобильный телефон.
+
+Используем 2 интерфейса:
+IConnectionManager - интерфейс, отвечающий за связь.
+IDataManager -интерфейс, отвечающий за информацию.
+ConnectionManagerImplementation - класс, реализующий интерфейс IConnectionManager.
+DataManagerImplementation - класс, реализующий интерфейс IDataManager.
+Phone - класс, реализующий интерфейс IConnectionManager, IDataManager.
