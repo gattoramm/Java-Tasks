@@ -13,7 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Java-AOP-Tasks" target="1.8" />
+      <module name="Java-AOP-Tasks" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
