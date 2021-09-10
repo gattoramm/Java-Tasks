@@ -18,7 +18,13 @@ public class octalIncrement {
         for(int i = 2; (num + i) < border; i+=2) {
             list.add(num+i);
         }
-        for(int i:list)
-            System.out.println(i);
+        int count = 0;
+        System.out.println("№  - oct - dec");
+        for(int i:list) {
+            count++;
+            System.out.println(count + " - " + toOctalString(i) + " - " + i);
+        }
+
+        System.out.println(list.size());
     }
 }

@@ -12,60 +12,41 @@ import org.w3c.dom.Node;
 
 public class DOMxmlWriter {
     public static void main(String[] args) {
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder;
+        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder;
         try {
-            factory.setNamespaceAware(true);
-            builder = factory.newDocumentBuilder();
-            // создаем пустой объект Document, в котором будем создавать наш xml-файл
-            Document doc = builder.newDocument();
-            // создаем корневой элемент
+            dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.newDocument();
+            // add elements to Document
             Element rootElement = doc.createElement("document");
-            // добавляем namespace
+            // add xmlns
             rootElement.setAttribute( "xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
             rootElement.setAttribute("xmlns:xs", "http://www.w3.org/2001/XMLSchema");
             rootElement.setAttribute("xmlns:tns", "http://www.airtaero.com/Alyoshka");
-            // добавляем корневой элемент в объект Document
+            // append root element to document
             doc.appendChild(rootElement);
-            // добавим header
-            Element node1 = doc.createElement("header");
-            rootElement.appendChild(node1);
-            node1.appendChild(doc.createTextNode("value"));
 
-            Element node2 = doc.createElement("feader");
+            Element nodeHeader = doc.createElement("header");
+            //nodeHeader.appendChild(rootElement);
 
-//            String node3 = doc.getNodeName("header");
-//
-//            System.out.println(node3);
+            // append first child element to root element
+            rootElement.appendChild(createUserElement(doc, "ar", "dataType"));
+            rootElement.appendChild(createUserElement(doc, "1", "version"));
+            rootElement.appendChild(createUserElement(doc, "0", "subversion"));
 
-            //rootElement.appendChild(getNode(doc, "header"));
-//            rootElement.appendChild(getNodeElements(doc, "header","456"));
-//            rootElement.appendChild(getNode(doc, "header","dataType","ar"));
-//            rootElement.appendChild(getNode(doc, "header","version","1"));
-//            rootElement.appendChild(getNode(doc, "header","subversion","0"));
-
+            // write to console or file
             printConsoleXML(doc);
-        } catch (Exception e) { e.printStackTrace(); }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    private static void setNode(Document doc, String nodeName) {
-        doc.createElement(nodeName);
+    private static Node createUserElement(Document doc, String tagName, String firstName) {
+        Element node = doc.createElement(firstName);
+        node.appendChild(doc.createTextNode(tagName));
+        return node;
     }
-
-    private static void setNodeElements(Document doc, Node node, String value) {
-        node.appendChild(doc.createTextNode(value));
-    }
-
-//    private static Node getNodeElements(Document doc, Node node, String value) {
-//        node.appendChild(doc.createTextNode(value));
-//        return node;
-//    }
-
-//    private static Node getNode(Node node, String value) {
-//        node.getNodeValue(value);
-//        return node;
-//    }
-
 
     private static void printConsoleXML(Document doc) throws TransformerException {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();

@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
+import java.util.Scanner;
 import java.util.stream.IntStream;
 
 /**
@@ -20,11 +21,11 @@ public class Task1 {
         int dem, bound;
 //        int[][] massive = new int[rand];
 
-        dem = Integer.parseInt(readInputValue());
-        bound = Integer.parseInt(readInputValue());
+        dem = readInputValue();
+        bound = readInputValue();
 
-        Random rand = new Random();
-        IntStream rr = rand.ints(-bound, bound+1);
+//        Random rand = new Random();
+//        IntStream rr = rand.ints(-bound, bound+1);
 
 
 
@@ -37,11 +38,12 @@ public class Task1 {
 
     }
 
-    public static String readInputValue() {
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-            return br.readLine();
+    public static Integer readInputValue() {
+        try {
+            Scanner scanner = new Scanner(new InputStreamReader(System.in));
+            return scanner.nextInt();
         }
-        catch (IOException ex) {
+        catch (Exception ex) {
             System.out.println("I/O Error!");
         }
         return null;
