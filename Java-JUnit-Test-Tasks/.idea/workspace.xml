@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97377233-cdef-4cdf-9aaf-c8bb9f93465e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-JUnit-Test-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-JUnit-Test-Tasks.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -65,22 +65,7 @@
       <recent name="D:\Rarsaev\github_proj\Java-JUnit-Test-Tasks\src\Udemi\JUnit5_Quick_Start\practice5_beforeAll_afterAll" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringMatcherTest">
-    <configuration name="CollectionMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-JUnit-Test-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Baeldung.Hamcrest.practice04_CollectionMatcher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice04_CollectionMatcher" />
-      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice04_CollectionMatcher.CollectionMatcherTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.assertEquals_assertNotEquals">
     <configuration name="NumberMatchesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-JUnit-Test-Tasks" />
       <extension name="coverage">
@@ -142,13 +127,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="assertEquals_assertNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-JUnit-Test-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Udemi.JUnit5_Quick_Start.practice1_assertEqual_assetNotEqual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Udemi.JUnit5_Quick_Start.practice1_assertEqual_assetNotEqual" />
+      <option name="MAIN_CLASS_NAME" value="Udemi.JUnit5_Quick_Start.practice1_assertEqual_assetNotEqual.assertEquals_assertNotEquals" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.assertEquals_assertNotEquals" />
         <item itemvalue="JUnit.StringMatcherTest" />
         <item itemvalue="JUnit.TextMatcherTest.given2Strings_whenEqualRegardlessWhiteSpace_thenCorrect" />
         <item itemvalue="JUnit.TextMatcherTest" />
         <item itemvalue="JUnit.NumberMatchesTest" />
-        <item itemvalue="JUnit.CollectionMatcherTest" />
       </list>
     </recent_temporary>
   </component>
