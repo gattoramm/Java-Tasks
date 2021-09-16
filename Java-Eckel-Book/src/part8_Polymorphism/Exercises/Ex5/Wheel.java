@@ -1,9 +1,12 @@
-package part8_Polymorphism.Exercises.Ex1;
+package part8_Polymorphism.Exercises.Ex5;
 
 public class Wheel {
+    public enum Transport {
+        ONE_WHEEL, TWO_WHEEL, THREE_WHEEL;
+    }
 
     public static void ride(Cycle t) {
-        t.ride(Cycle.Transport.TWO_WHEEL);
+        t.ride(Transport.TWO_WHEEL);
     }
 
     public static void main(String[] args) {

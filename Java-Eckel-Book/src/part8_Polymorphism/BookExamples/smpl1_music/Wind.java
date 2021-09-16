@@ -1,4 +1,5 @@
-package part8_Polymorphism.BookExamples.music;
+package part8_Polymorphism.BookExamples.smpl1_music;
+
 
 public class Wind extends Instrument{
     @Override

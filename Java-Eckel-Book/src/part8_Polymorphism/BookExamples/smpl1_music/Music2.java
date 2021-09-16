@@ -1,4 +1,4 @@
-package part8_Polymorphism.BookExamples.music;
+package part8_Polymorphism.BookExamples.smpl1_music;
 
 class Stringed extends Instrument {
     @Override
