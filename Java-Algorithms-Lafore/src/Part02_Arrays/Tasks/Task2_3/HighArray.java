@@ -65,7 +65,7 @@ class HighArray {
 
 class HighArrayApp {
     public static void main(String[] args) {
-        int maxSize = 100;
+        int maxSize = 20;
         HighArray arr, sortedArr;
         arr = new HighArray(maxSize);
         sortedArr = new HighArray(maxSize);
