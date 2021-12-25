@@ -9,7 +9,7 @@ import java.util.TreeMap;
  * Если таких чисел несколько, найти первое из них.
  */
 
-public class Ex4 {
+public class Ex4_withTreeMap {
     public static void main(String[] argss) {
 
         String[] args = new String[]{"1224532456236315", "857436362345", "223456435356457879", "22145523623415"};
