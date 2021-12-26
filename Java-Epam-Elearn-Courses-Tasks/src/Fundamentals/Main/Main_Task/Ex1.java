@@ -1,4 +1,4 @@
-package Fundamentals.Main_Task;
+package Fundamentals.Main.Main_Task;
 
 /**
  * Приветствовать любого пользователя при вводе его имени через командную строку.

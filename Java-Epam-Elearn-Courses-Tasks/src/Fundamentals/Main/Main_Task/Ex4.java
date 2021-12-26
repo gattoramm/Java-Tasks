@@ -1,4 +1,4 @@
-package Fundamentals.Main_Task;
+package Fundamentals.Main.Main_Task;
 
 /**
  * Ввести целые числа как аргументы командной строки, подсчитать их сумму

@@ -1,4 +1,4 @@
-package Fundamentals.Main_Task;
+package Fundamentals.Main.Main_Task;
 
 import java.util.Random;
 
