@@ -22,8 +22,8 @@ public class Ex1_2 {
     }
 
     public static void printMatrix(int[][] matrix) {
-        for (int out = 0; out <  matrix[0].length; out++) {
-            for (int in = 0; in <  matrix[0].length; in++) {
+        for (int out = 0; out < matrix.length; out++) {
+            for (int in = 0; in < matrix[0].length; in++) {
                 System.out.print("a[" + (out + 1) + "][" + (in + 1) + "]=" + matrix[out][in] + "\t");
             }
             System.out.println();
