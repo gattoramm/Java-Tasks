@@ -11,24 +11,20 @@ import java.util.Scanner;
  */
 
 public class Ex1_3 {
-    public static int findMaxSequenceInMatrix(int[][] matrix) {
-        int maxSequence = 0;
-        int maxSequenceInRow;
-        int[] valuesOfRowMatrix;
+    // заполнение матрицы случайными числами
+    public static int[][] createMatrix(int dimension, int maxValue) {
+        int[][] matrix = new int[dimension][dimension];
 
-        for (int[] ints : matrix) {
-            valuesOfRowMatrix = new int[matrix.length];
-
-            for (int in = 0; in < matrix[0].length; in++)
-                valuesOfRowMatrix[in] = ints[in];
-
-            maxSequenceInRow = countIncreaseArray(valuesOfRowMatrix);
-            maxSequence = maxSequence > maxSequenceInRow ? maxSequence : maxSequenceInRow;
+        for (int out = 0; out < dimension; out++) {
+            for (int in = 0; in < dimension; in++) {
+                matrix[out][in] = (int) (Math.random() * (2 * maxValue + 1)) - maxValue;
+            }
         }
-        return maxSequence;
+        return matrix;
     }
 
-    public static int countIncreaseArray (int[] sequence) {
+    // поиск максимального числа возрастающих элементов в строке матрице
+    public static int findMaxCountSubsequenceInSequence (int[] sequence) {
         int maxSequenceInRow = 0;
         int maxSubSequence = 1;
 
@@ -46,6 +42,24 @@ public class Ex1_3 {
         return maxSequenceInRow;
     }
 
+    // поиск максимального числа возрастающих элементов в матрице
+    public static int findMaxCountSequenceInMatrix(int[][] matrix) {
+        int maxSequence = 0;
+        int maxSequenceInRow;
+        int[] valuesOfRowMatrix;
+
+        for (int[] ints : matrix) {
+            valuesOfRowMatrix = new int[matrix.length];
+
+            for (int in = 0; in < matrix[0].length; in++)
+                valuesOfRowMatrix[in] = ints[in];
+
+            maxSequenceInRow = findMaxCountSubsequenceInSequence(valuesOfRowMatrix);
+            maxSequence = maxSequence > maxSequenceInRow ? maxSequence : maxSequenceInRow;
+        }
+        return maxSequence;
+    }
+
     public static void printMatrix (int[][] matrix) {
         for (int out = 0; out <  matrix[0].length; out++) {
             for (int in = 0; in <  matrix[0].length; in++) {
@@ -60,18 +74,11 @@ public class Ex1_3 {
         System.out.print("Insert n: ");
         int inputValue = scanner.nextInt();
 
-        int[][] matrix = new int[inputValue][inputValue];
-        int M = 50;
-
-        for (int out = 0; out < inputValue; out++) {
-            for (int in = 0; in < inputValue; in++) {
-                matrix[out][in] = (int) (Math.random() * (2 * M + 1)) - M;
-            }
-        }
+        int[][] matrix = createMatrix(inputValue, 50);
 
         printMatrix(matrix);
 
         System.out.println();
-        System.out.println(findMaxSequenceInMatrix(matrix));
+        System.out.println(findMaxCountSequenceInMatrix(matrix));
     }
 }
