@@ -33,7 +33,7 @@ public class Ex1_4 {
         int[] arrTwoPositiveValues = new int[]{-1, -1};
 
         for (int i = 0; i < row.length && count < 2; i++) {
-            if (row[i] > 0) {
+            if (row[i] >= 0) {
                 count++;
                 arrTwoPositiveValues[j] = i;
                 j++;
