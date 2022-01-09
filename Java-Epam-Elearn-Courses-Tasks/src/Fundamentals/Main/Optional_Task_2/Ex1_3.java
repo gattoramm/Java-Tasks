@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Ex1_3 {
     // поиск максимального числа возрастающих элементов в строке матрице
-    public static int findMaxCountSubsequenceInSequence (int[] sequence) {
+    private static int findMaxCountSubsequenceInSequence (int[] sequence) {
         int maxSequenceInRow = 0;
         int maxSubSequence = 1;
 
@@ -31,7 +31,7 @@ public class Ex1_3 {
     }
 
     // поиск максимального числа возрастающих элементов в матрице
-    public static int findMaxCountSequenceInMatrix(int[][] matrix) {
+    private static int findMaxCountSequenceInMatrix(int[][] matrix) {
         int maxSequence = 0;
         int maxSequenceInRow;
         int[] valuesOfRowMatrix;

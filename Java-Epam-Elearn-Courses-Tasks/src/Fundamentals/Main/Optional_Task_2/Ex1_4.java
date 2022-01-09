@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Ex1_4 {
     // подсчет 2х положительных элементов в строке
-    public static int sumTwoPositiveValuesMatrixRow(int[] row) {
+    private static int sumTwoPositiveValuesMatrixRow(int[] row) {
         int count = 0;
         int sum = 0;
         int j = 0;
@@ -28,9 +28,7 @@ public class Ex1_4 {
             }
         }
 
-        if (arrTwoPositiveValues[0] < 0 && arrTwoPositiveValues[1] < 0)
-            return 0;
-
+        if (arrTwoPositiveValues[0] < 0 && arrTwoPositiveValues[1] < 0) return 0;
 
         for (int i = arrTwoPositiveValues[0]; i < arrTwoPositiveValues[1] - 1; i++)
             sum += row[i + 1];
@@ -39,7 +37,7 @@ public class Ex1_4 {
     }
 
     // вывод суммы элементов матрицы, расположенных первыми 2мя положительными элементами каждой строки
-    public static void printSumTwoPositiveValuesMatrixRow(int[][] matrix) {
+    private static void printSumTwoPositiveValuesMatrixRow(int[][] matrix) {
         int[] row = new int[matrix.length];
 
         for (int out = 0; out < matrix.length; out++) {
