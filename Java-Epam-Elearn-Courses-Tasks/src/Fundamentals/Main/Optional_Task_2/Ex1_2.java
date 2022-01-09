@@ -12,6 +12,18 @@ import java.util.Scanner;
  */
 
 public class Ex1_2 {
+    // заполнение матрицы случайными числами
+    public static int[][] createMatrix(int dimension, int maxValue) {
+        int[][] matrix = new int[dimension][dimension];
+
+        for (int out = 0; out < dimension; out++) {
+            for (int in = 0; in < dimension; in++) {
+                matrix[out][in] = (int) (Math.random() * (2 * maxValue + 1)) - maxValue;
+            }
+        }
+        return matrix;
+    }
+
     // замена строк
     public static void changeColumnsOfMatrix(int column1, int column2, int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
@@ -48,17 +60,16 @@ public class Ex1_2 {
         System.out.print("Insert n: ");
         int inputValue = scanner.nextInt();
 
-        int[][] matrix = new int[inputValue][inputValue];
-        int M = 50;
+        int[][] matrix = createMatrix(inputValue, 50);
 
-        for (int out = 0; out < inputValue; out++) {
-            for (int in = 0; in < inputValue; in++) {
-                matrix[out][in] = (int) (Math.random() * (2 * M + 1)) - M;
-            }
-        }
+        System.out.print("Insert column: ");
+        int column = scanner.nextInt();
+
         System.out.println("Before:");
         printMatrix(matrix);
-        sortedColumnOfMatrix(0, matrix);
+
+        sortedColumnOfMatrix(column, matrix);
+
         System.out.println("After:");
         printMatrix(matrix);
     }
