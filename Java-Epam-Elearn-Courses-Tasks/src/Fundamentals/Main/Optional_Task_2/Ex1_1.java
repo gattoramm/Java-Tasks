@@ -21,6 +21,7 @@ public class Ex1_1 {
         }
     }
 
+    // сортировка строк матрицы k-го столбца
     private static void sortedColumnOfMatrix(int column, int[][] matrix){
         // сортировка вставкой
         for (int out = 1; out < matrix[0].length; out++) {
@@ -41,15 +42,15 @@ public class Ex1_1 {
 
         int[][] matrix = Matrix.createMatrix(inputValue, 50);
 
+        System.out.println("Before :");
+        Matrix.printMatrix(matrix);
+
         System.out.print("Insert row: ");
         int row = scanner.nextInt();
 
-        System.out.println("Before:");
-        Matrix.printMatrix(matrix);
-
         sortedColumnOfMatrix(row, matrix);
 
-        System.out.println("After:");
+        System.out.println("After :");
         Matrix.printMatrix(matrix);
     }
 }

@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 
 public class Ex1_4 {
-    // подсчет 2х положительных элементов в строке
+    // поиск первых 2х положительных элементов в строке
     private static int sumTwoPositiveValuesMatrixRow(int[] row) {
         int count = 0;
         int sum = 0;

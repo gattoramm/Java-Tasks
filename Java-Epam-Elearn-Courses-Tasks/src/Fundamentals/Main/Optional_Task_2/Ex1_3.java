@@ -20,12 +20,10 @@ public class Ex1_3 {
             if (sequence[i] > sequence[i-1]) {
                 maxSubSequence++;
             }
-            else {
-                if (maxSubSequence > maxSequenceInRow) {
+            else if (maxSubSequence > maxSequenceInRow) {
                     maxSequenceInRow = maxSubSequence;
                 }
                 maxSubSequence = 1;
-            }
         }
         return maxSequenceInRow;
     }

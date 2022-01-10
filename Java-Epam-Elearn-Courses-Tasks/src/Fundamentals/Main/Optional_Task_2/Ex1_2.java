@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 
 public class Ex1_2 {
-    // замена строк
+    // замена столбцов
     private static void changeColumnsOfMatrix(int column1, int column2, int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             int tmp = matrix[i][column1];
@@ -21,7 +21,7 @@ public class Ex1_2 {
         }
     }
 
-    // сортировка по строке
+    // сортировка столбцов матрицы k-й строки
     private static void sortedColumnOfMatrix(int row, int[][] matrix){
         // сортировка вставкой
         for (int out = 1; out < matrix.length; out++) {
@@ -42,11 +42,11 @@ public class Ex1_2 {
 
         int[][] matrix = Matrix.createMatrix(inputValue, 50);
 
-        System.out.print("Insert column: ");
-        int column = scanner.nextInt();
-
         System.out.println("Before:");
         Matrix.printMatrix(matrix);
+
+        System.out.print("Insert column: ");
+        int column = scanner.nextInt();
 
         sortedColumnOfMatrix(column, matrix);
 
