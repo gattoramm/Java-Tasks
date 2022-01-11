@@ -1,6 +1,5 @@
 package Fundamentals.Main.Optional_Task_2;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -13,72 +12,97 @@ import java.util.Scanner;
  */
 
 public class Ex1_5 {
-    // поиск максимального элемента в матрице и количество таких элементов
-    private static int[] findMaxValueAndCountInMatrix(int[][] matrix) {
+    // поиск максимального элемента в матрице
+    private static int findMaxValueMatrix(int[][] matrix) {
         int maxValue = matrix[0][0];
-        int countMaxValue = 0;
-        int[] result = new int[2];
 
         for (int[] outs : matrix)
             for (int ints : outs)
-                if (ints > maxValue) {
-                    maxValue = ints;
-                    countMaxValue++;
-                }
+                if (ints > maxValue) maxValue = ints;
 
-        result[0] = maxValue;
-        result[1] = countMaxValue;
-
-        return result;
+        return maxValue;
     }
 
-    // поиск позиций максимальных элементов матрицы
-    private static int[][] findIndexOfValue(int[][] matrix, int maxValue) {
-        int count = findMaxValueAndCountInMatrix(matrix)[1];
+    // поиск позиций по значению элемента матрицы
+    private static int[][] findIndexOfValue(int[][] matrix, int value) {
+        int count = 0;
+        for (int[] outs : matrix)
+            for (int ints : outs)
+                if (ints == value) count++;
+
         int[][] indexesOfMaxValue = new int[count][2];
+
         int j = 0;
 
         for (int out = 0; out < matrix.length; out++) {
             for (int in = 0; in < matrix[out].length; in++) {
-                if (matrix[out][in] == maxValue) {
+                if (matrix[out][in] == value) {
                     indexesOfMaxValue[j][0] = out;
                     indexesOfMaxValue[j][1] = in;
                     j++;
                 }
             }
         }
-
         return indexesOfMaxValue;
     }
 
-    // поиск уникальных значений строк/столбцов
-    //private static
+    // новый массив с уникальными значениями индексов (столбцов или строк) найденных элементов
+    // разность индексов исходного массива и индексов найденных значений
+    private static int[] uniqueIndex(int[] indexesOfMatrix, int[] indexesFindElements) {
+        // индексы матрицы - от 0 до длины массива
+        // индексы найденных значений - любые по возрастанию с дублированием
+        int lenIndexesOfMatrix = indexesOfMatrix.length;
+        int lenIndexesFindElements = indexesFindElements.length;
 
-    // поиск уникальных значений строк
-    private static int[] uniqueRowsWithMaxValueOfMatrix(int[][] matrix, int[][] ceil) {
-        int[][] indexesOfMaxElements = findIndexOfValue(matrix, findMaxValueAndCountInMatrix(matrix)[0]);
-        int[] rowsOfMaxElements = indexesOfMaxElements[0];
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        list.add(1);
-
-        int[] result = new int[rowsOfMaxElements.length];
-
-        int count = 0;
-
-        result[count++] = rowsOfMaxElements[0];
-
-        for (int out = 1; out < rowsOfMaxElements.length; out++) {
-            int countOfRows = 1;
-            int currentValue = rowsOfMaxElements[out];
-
-            for (int in = out; in > 0; in--)
-                if (rowsOfMaxElements[in] == currentValue) countOfRows++;
-
-            if (countOfRows == 1)
-                result[count++] = rowsOfMaxElements[out];
+        // найдем количество уникальных индексов найденных значений
+        int countUniqueIndexesFindElement = 0;
+        for (int i = 1; i < lenIndexesFindElements; i++) {
+            if (indexesFindElements[i] != indexesFindElements[i-1]) {
+                countUniqueIndexesFindElement++;
+                i++;
+            }
         }
 
-        return result;
+        // создадим массив с уникальными индексами найденых значений
+        int lenNewUniqueIndexesFindElements = lenIndexesFindElements - countUniqueIndexesFindElement;
+        int[] newUniqueIndexesFindElements = new int[lenNewUniqueIndexesFindElements];
+        int j = 0;
+
+        for (int i = 1; i < lenIndexesOfMatrix; i++) {
+            if (indexesFindElements[i] != indexesFindElements[i-1]) {
+                newUniqueIndexesFindElements[j] = indexesFindElements[i];
+                j++;
+            }
+        }
+
+        // новый массив индексов без индексов найденных элементов
+        int lenNewMassiveForIndexes = lenIndexesOfMatrix - lenNewUniqueIndexesFindElements;
+        int[] newMassiveOfIndexes = new int[lenNewMassiveForIndexes];
+
+        // заполнение
+        int s = 0;
+        for (int i = 0; i < lenIndexesOfMatrix; i++) {
+            for (int k = 0; k < lenNewMassiveForIndexes; k++) {
+                if (i != newUniqueIndexesFindElements[k]) {
+                    newMassiveOfIndexes[s] = i;
+                    s++;
+                } else {
+                    i++;k++;
+                }
+            }
+        }
+
+        return newMassiveOfIndexes;
+    }
+
+    // новая матрица с удалеными строками и столбцами с максимальным элементом
+    private static int[][] newMatrixWithoutElement(int[][] matrix, int value) {
+        // матрица с позициями максимальных элементов
+        int maxValue = findMaxValueMatrix(matrix);
+        int[][] tmp = findIndexOfValue(matrix, maxValue);
+        
+
+        return null;
     }
 
     public static void main (String[]args){
