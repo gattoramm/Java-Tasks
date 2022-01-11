@@ -11,21 +11,20 @@ import java.util.Scanner;
  */
 
 public class Ex1_3 {
-    // поиск максимального числа возрастающих элементов в строке матрице
+    // поиск максимального числа возрастающих элементов в массиве
     private static int findMaxCountSubsequenceInSequence (int[] sequence) {
-        int maxSequenceInRow = 0;
+        int maxSequence = 1;
         int maxSubSequence = 1;
 
         for (int i = 1; i < sequence.length; i++) {
-            if (sequence[i] > sequence[i-1]) {
+            if (sequence[i] > sequence[i-1])
                 maxSubSequence++;
-            }
-            else if (maxSubSequence > maxSequenceInRow) {
-                    maxSequenceInRow = maxSubSequence;
-                }
-                maxSubSequence = 1;
+            if (maxSubSequence > maxSequence)
+                maxSequence = maxSubSequence;
+
+            maxSubSequence = 1;
         }
-        return maxSequenceInRow;
+        return maxSequence;
     }
 
     // поиск максимального числа возрастающих элементов в матрице
