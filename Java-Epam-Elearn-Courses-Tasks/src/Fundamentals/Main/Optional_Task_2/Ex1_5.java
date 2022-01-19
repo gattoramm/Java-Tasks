@@ -100,7 +100,7 @@ public class Ex1_5 {
         // матрица с позициями максимальных элементов
         int maxValue = findMaxValueMatrix(matrix);
         int[][] tmp = findIndexOfValue(matrix, maxValue);
-        
+
 
         return null;
     }
