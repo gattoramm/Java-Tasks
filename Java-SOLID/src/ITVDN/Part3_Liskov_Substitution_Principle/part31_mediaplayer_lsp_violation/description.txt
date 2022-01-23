@@ -1,7 +1,7 @@
 Приложение, которое нарушает принцип LSP
 
-Создали класс Mediaplayer с методами playAudio(), playVideo()
-Создали классы TorMediaPlayer, VlcMediaPlayer, WinampMediaPlayer - классы-наследники Mediaplayer
+Создали класс Mediaplayer с методами playAudio(), playVideo().
+Создали классы TorMediaPlayer, VlcMediaPlayer, WinampMediaPlayer - классы-наследники Mediaplayer.
 
 Создали класс ClientTestProgram - пользовательский класс, точка входа приложения.
 Добавляем в List объекты классов-наследников. Затем вызываем метод playVideo() для элементов List.

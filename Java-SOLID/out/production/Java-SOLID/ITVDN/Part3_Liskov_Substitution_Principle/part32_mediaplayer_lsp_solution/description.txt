@@ -1,4 +1,4 @@
-Приложение, которое собдюдает принцип LSP
+Приложение, которое соблюдает принцип LSP
 
 Создали Mediaplayer с методом playAudio().
 Создали классы AudioMediaPlayer, VideoMediaPlayer - классы наследники Mediaplayer.
