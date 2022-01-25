@@ -13,11 +13,14 @@ __Single Responsibility Principle__ - Принцип единственной о
 
 > Каждый объект должен иметь одну обязанность и эта обязанность должна быть полностью инкапсулирована в класс. Все его сервисы должны быть направлены исключительно на обеспечение этой обязанности.
 
-[Приложение, которое нарушает принцип SCP]()
+__Приложение, которое нарушает принцип SCP__:
+[Пример](src/ITVDN/Part1_Single_Responsibility_Principle/part11_moder_srp_violation)
 
-[Приложение, которое соблюдает принцип SCP]()
+__Приложение, которое соблюдает принцип SCP__:
+[Пример](src/ITVDN/Part1_Single_Responsibility_Principle/part12_moder_srp_solution)
 
-[Приложение, которое соблюдает принцип SCP на примере шаблона DAO]()
+__Приложение, которое соблюдает принцип SCP на примере шаблона DAO__:
+[Пример](src/ITVDN/Part1_Single_Responsibility_Principle/part13_employee_architecture)
 
 ## __O__ - __OSP__
 
@@ -25,17 +28,13 @@ __Open-Closed Principle__ - Принцип открытости-закрытос
 
 > Программные сущности (классы, модули, функции) должны быть открыты для расширения, но не для изменения.
 
-Пример 1:
+__Приложение, которое нарушает принцип OSP__:
+[Пример1](src/ITVDN/Part2_Open_Closed_Principle/part21_loan_ocp_handler),
+[Пример2](src/ITVDN/Part2_Open_Closed_Principle/part23_shape_ocp_violation)
 
-[Приложение, которое нарушает принцип OSP]()
-
-[Приложение, которое поддерживает принцип OSP]()
-
-Пример 2:
-
-[Приложение, которое нарушает принцип OSP]()
-
-[Приложение, которое поддерживает принцип OSP]()
+__Приложение, которое поддерживает принцип OSP__:
+[Пример1](src/ITVDN/Part2_Open_Closed_Principle/part22_loan_ocp_solution),
+[Пример2](src/ITVDN/Part2_Open_Closed_Principle/part24_shape_ocp_solution)
 
 ## __L__ - __LSP__
 
@@ -49,9 +48,11 @@ __Liskov Substitution Principle__ - Принцип подстановки Бар
 
 Помогает четко сформулировать иерархию классов и определить функционал для базовых и производных классов и избежать возможных проблем при применении полиморфизма.
 
-[Приложение, которое нарушает принцип LSP]()
+__Приложение, которое нарушает принцип LSP__:
+[Пример](src/ITVDN/Part3_Liskov_Substitution_Principle/part31_mediaplayer_lsp_violation)
 
-[Приложение, которое поддерживает принцип LSP]()
+__Приложение, которое поддерживает принцип LSP__:
+[Пример](src/ITVDN/Part3_Liskov_Substitution_Principle/part32_mediaplayer_lsp_solution)
 
 ## __I__ - __ISP__
 
@@ -62,9 +63,13 @@ __Interface Segregation Principle__ - Принцип разделения инт
 Принцип разделения интерфейсов относится к тем случаям, когда классы имеют "жирный интерфейс", то есть слишком раздутый интерфейс, не все методы и свойства которого используются и могут быть восстребованы. Таким образом, интерфейс получается слишком избыточен или "жирным". 
 Клиенты не должны вынужденно зависеть от методов, которыми не пользуются.
 
-[Приложение, которое нарушает принцип ISP]()
+__Приложение, которое нарушает принцип ISP__:
+[Пример1](src/ITVDN/Part4_Interface_Segregation_Principle/part41_isp_violation),
+[Пример2](src/ITVDN/Part4_Interface_Segregation_Principle/part43_order_isp_violation)
 
-[Приложение, которое поддерживает принцип ISP]()
+__Приложение, которое поддерживает принцип ISP__:
+[Пример1](src/ITVDN/Part4_Interface_Segregation_Principle/part42_isp_solution),
+[Пример2](src/ITVDN/Part4_Interface_Segregation_Principle/part44_order_isp_solution)
 
 ## __D__ - __DIP__
 
@@ -89,6 +94,8 @@ __Модуль верхнего уровня__: Бизнес логика
 * Методы не должны замещать методы реализаций
 * Никогда не упоминайте название чего-либо конкретного
 
-[Приложение, которое нарушает принцип DIP]()
+__Приложение, которое нарушает принцип DIP__:
+[Пример](src/ITVDN/Part5_Dependency_Inversion_Pranciple/part51_dip_violation)
 
-[Приложение, которое поддерживает принцип DIP]()
+__Приложение, которое поддерживает принцип DIP__:
+[Пример](src/ITVDN/Part5_Dependency_Inversion_Pranciple/part52_dip_solution)
