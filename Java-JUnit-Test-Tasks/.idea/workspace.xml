@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97377233-cdef-4cdf-9aaf-c8bb9f93465e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java-Eckel-Book/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Eckel-Book/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Eckel-Book/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Eckel-Book/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-JSON-Tasks/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-JSON-Tasks/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/Fundamentals/Main/Main_Task/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/Fundamentals/Main/Main_Task/Ex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-JUnit-Test-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-JUnit-Test-Tasks.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -82,7 +76,7 @@
       <recent name="D:\Rarsaev\github_proj\Java-JUnit-Test-Tasks\src\Udemi\JUnit5_Quick_Start\practice5_beforeAll_afterAll" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberMatchesTest">
+  <component name="RunManager" selected="JUnit.NumberMatchesTest.givenAnInteger_whenGreaterThanOrEqTo5_thenCorrect">
     <configuration name="NumberMatchesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-JUnit-Test-Tasks" />
       <extension name="coverage">
@@ -94,6 +88,22 @@
       <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice05_NumberMatcher" />
       <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice05_NumberMatcher.NumberMatchesTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberMatchesTest.givenAnInteger_whenGreaterThanOrEqTo5_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-JUnit-Test-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baeldung.Hamcrest.practice05_NumberMatcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice05_NumberMatcher" />
+      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice05_NumberMatcher.NumberMatchesTest" />
+      <option name="METHOD_NAME" value="givenAnInteger_whenGreaterThanOrEqTo5_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,22 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextMatcherTest.given2Strings_whenEqualRegardlessWhiteSpace_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-JUnit-Test-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Baeldung.Hamcrest.practice06_TextMatcher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Baeldung.Hamcrest.practice06_TextMatcher" />
-      <option name="MAIN_CLASS_NAME" value="Baeldung.Hamcrest.practice06_TextMatcher.TextMatcherTest" />
-      <option name="METHOD_NAME" value="given2Strings_whenEqualRegardlessWhiteSpace_thenCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="assertEquals_assertNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-JUnit-Test-Tasks" />
       <extension name="coverage">
@@ -161,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberMatchesTest.givenAnInteger_whenGreaterThanOrEqTo5_thenCorrect" />
         <item itemvalue="JUnit.NumberMatchesTest" />
         <item itemvalue="JUnit.TestCalculator" />
         <item itemvalue="JUnit.assertEquals_assertNotEquals" />
         <item itemvalue="JUnit.StringMatcherTest" />
-        <item itemvalue="JUnit.TextMatcherTest.given2Strings_whenEqualRegardlessWhiteSpace_thenCorrect" />
       </list>
     </recent_temporary>
   </component>
