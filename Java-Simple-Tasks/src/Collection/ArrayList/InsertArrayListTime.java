@@ -9,7 +9,7 @@ public class InsertArrayListTime {
 
         List<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i < 5_000_000; i++) {
+        for (int i = 0; i < 50_000_000; i++) {
             list.add(i);
         }
 
