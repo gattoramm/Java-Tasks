@@ -12,7 +12,7 @@ public class oop1 {
         public abstract void ring (int inputNumber);
     }
 
-    //инкапсуляция
+    //Инкапсуляция
     public class SomePhone {
         private int year;
         private String company;
