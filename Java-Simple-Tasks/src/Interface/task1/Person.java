@@ -1,4 +1,4 @@
-package Interfaces.task1;
+package Interface.task1;
 
 public class Person implements Info{
     public String name;

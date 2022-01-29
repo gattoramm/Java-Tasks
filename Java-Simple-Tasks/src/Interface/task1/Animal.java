@@ -1,4 +1,4 @@
-package Interfaces.task1;
+package Interface.task1;
 
 public class Animal implements Info{
     public int id;
