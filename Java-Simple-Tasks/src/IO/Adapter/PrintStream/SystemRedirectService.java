@@ -8,7 +8,7 @@ public class SystemRedirectService{
     public static void main(String[]args)throws FileNotFoundException{
         PrintStream filePrintStream = new PrintStream(new File("D:\\2.txt"));
 
-         // сохранияем текущее значение System.out в отдельную переменную
+         // сохраняем текущее значение System.out в отдельную переменную
          // чтобы потом переключиться обратно на вывод в консоль
 
         PrintStream console = System.out;
