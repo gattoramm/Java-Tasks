@@ -15,10 +15,12 @@ public class LinkerListPeekFirstLast {
         LinkedList<LinkerListPeekFirstLast> cars = new LinkedList<>();
         LinkerListPeekFirstLast ferrari = new LinkerListPeekFirstLast("Ferrari 360 Spider");
         LinkerListPeekFirstLast bugatti = new LinkerListPeekFirstLast("Bugatti Veyron");
+        LinkerListPeekFirstLast mazda = new LinkerListPeekFirstLast("Mazda");
         LinkerListPeekFirstLast lambo = new LinkerListPeekFirstLast("Lamborghini Diablo");
 
         cars.add(ferrari);
         cars.add(bugatti);
+        cars.add(mazda);
         cars.add(lambo);
 
         System.out.println(cars.peekFirst());
