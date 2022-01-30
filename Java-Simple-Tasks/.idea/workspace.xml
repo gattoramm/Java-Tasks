@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3d1218-d0d2-4a80-a04d-7b4d1756ac5b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/ArrayList/InsertArrayListTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/ArrayList/InsertArrayListTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/LinkedList/InsertLinkedListTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/LinkedList/InsertLinkedListTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/LinkedList/LinkedListAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/LinkedList/LinkedListAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/LinkedList/LinkedListCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/LinkedList/LinkedListCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/LinkedList/LinkedListRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/LinkedList/LinkedListRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/LinkedList/LinkerListPeekFirstLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/LinkedList/LinkerListPeekFirstLast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO/Adapter/PrintStream/SystemRedirectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/Adapter/PrintStream/SystemRedirectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/task1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/task1/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/task1/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/task1/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/task1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/task1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/task1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/task1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Numeric/binary/dec_in_bin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Numeric/binary/dec_in_bin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/task1/oop1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/task1/oop1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/epamElearn/JavaFundamental/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/epamElearn/JavaFundamental/tmp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +11,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -38,7 +29,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="24H69UUQ1ujNAKfGGetICoHJZFU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +44,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.oop1">
+  <component name="RunManager" selected="Application.fuzzbuzz">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetsCode.Arrays.arr1.Solution" />
       <module name="Java-Simple-Tasks" />
@@ -78,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inst1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Instance.task1.inst1" />
+    <configuration name="fuzzbuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.fuzzbuzz" />
       <module name="Java-Simple-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Instance.task1.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fuzzbuzz" />
         <item itemvalue="Application.oop1" />
         <item itemvalue="Application.octalIncrement" />
         <item itemvalue="Application.dec_in_bin" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.inst1" />
       </list>
     </recent_temporary>
   </component>
