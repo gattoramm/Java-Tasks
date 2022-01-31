@@ -1,7 +1,7 @@
-# JUnit Java
+## JUnit-Java
 Тестовые примеры использования JUnit
 
-## Примеры на основе курса Udemy [Hamcrest Quick Start: Enhanced JUnit syntax and capabilities](https://www.udemy.com/course/hamcrest/learn/lecture/22166184?start=0#overview)
+### Примеры на основе курса Udemy [Hamcrest Quick Start: Enhanced JUnit syntax and capabilities](https://www.udemy.com/course/hamcrest/learn/lecture/22166184?start=0#overview)
 Тестовые примеры с использованием библиотеки Hamcrest
 * Introduction
   * [link](src/Udemi/Hamcrest_Quick_start/part01_Introduction/practice01_AssertThat_EqualsTo_methods/AssertThat_EqualsTo.java) assertThat()
@@ -37,7 +37,7 @@
 * Beans
   * [link](src/Udemi/Hamcrest_Quick_start/part04_Beans/practice15_beans/) Methods for Java Beans
 
-## Примеры на основе курса Udemy [JUnit 5 Quick Start: Java Unit Testing](https://www.udemy.com/course/junit-quick-start-for-beginners-java-unit-testing/learn/lecture/18764200?start=0#overview)
+### Примеры на основе курса Udemy [JUnit 5 Quick Start: Java Unit Testing](https://www.udemy.com/course/junit-quick-start-for-beginners-java-unit-testing/learn/lecture/18764200?start=0#overview)
 Тестовые примеры JUnit
 * [link](src/Udemi/JUnit5_Quick_Start/practice1_assertEqual_assetNotEqual/) First JUnit tests: @Test,
 assertEquals(), assertNotEquals()
