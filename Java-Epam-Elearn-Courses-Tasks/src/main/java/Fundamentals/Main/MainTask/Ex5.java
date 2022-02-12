@@ -1,4 +1,4 @@
-package Fundamentals.Main.Main_Task;
+package Fundamentals.Main.MainTask;
 
 /**
  * Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу.

@@ -1,4 +1,4 @@
-package Fundamentals.Main.Optional_Task_1;
+package Fundamentals.Main.OptionalTask1;
 
 /**
  * Задание. Ввести n чисел с консоли.

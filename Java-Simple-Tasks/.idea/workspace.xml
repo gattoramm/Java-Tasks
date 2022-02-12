@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e3d1218-d0d2-4a80-a04d-7b4d1756ac5b" name="Changes" comment="" />
+    <list default="true" id="2e3d1218-d0d2-4a80-a04d-7b4d1756ac5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OOP/simple/extend/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/fuzzbuzzWithThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,18 +41,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Autotest-Tasks/Wiley_Test" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.fuzzbuzz">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetsCode.Arrays.arr1.Solution" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Strings" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.simple.extend.A" />
       <module name="Java-Simple-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetsCode.Arrays.arr1.*" />
+          <option name="PATTERN" value="OOP.simple.extend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.fuzzbuzz" />
         <item itemvalue="Application.oop1" />
         <item itemvalue="Application.octalIncrement" />
         <item itemvalue="Application.dec_in_bin" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>

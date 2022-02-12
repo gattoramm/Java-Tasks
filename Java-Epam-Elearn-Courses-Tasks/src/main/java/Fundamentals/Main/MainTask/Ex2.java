@@ -1,4 +1,4 @@
-package Fundamentals.Main.Main_Task;
+package Fundamentals.Main.MainTask;
 
 /**
  * Отобразить в окне консоли аргументы командной строки в обратном порядке.

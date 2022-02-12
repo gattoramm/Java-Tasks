@@ -1,4 +1,4 @@
-package Fundamentals.Main.Optional_Task_2;
+package Fundamentals.Main.OptionalTask2;
 
 import java.util.Scanner;
 
@@ -26,9 +26,9 @@ public class Ex1_2 {
         // сортировка вставкой
         for (int out = 1; out < matrix.length; out++) {
             int in = out;
-            int tempValueRowColumn = matrix[row][out];
+            int tempValueRowColumn = matrix[row-1][out];
 
-            while (in > 0 && matrix[row][in-1] >= tempValueRowColumn) {
+            while (in > 0 && matrix[row-1][in-1] >= tempValueRowColumn) {
                 changeColumnsOfMatrix(in, in - 1, matrix);
                 --in;
             }
@@ -37,10 +37,13 @@ public class Ex1_2 {
 
     public static void main (String[]args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Insert n: ");
+        System.out.print("Insert dimension: ");
         int inputValue = scanner.nextInt();
 
-        int[][] matrix = Matrix.createMatrix(inputValue, 50);
+        System.out.print("Insert max value: ");
+        int maxValue = scanner.nextInt();
+
+        int[][] matrix = Matrix.createMatrix(inputValue, maxValue);
 
         System.out.println("Before:");
         Matrix.printMatrix(matrix);

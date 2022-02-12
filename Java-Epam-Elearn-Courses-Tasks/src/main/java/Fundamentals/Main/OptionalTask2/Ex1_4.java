@@ -1,4 +1,4 @@
-package Fundamentals.Main.Optional_Task_2;
+package Fundamentals.Main.OptionalTask2;
 
 import java.util.Scanner;
 

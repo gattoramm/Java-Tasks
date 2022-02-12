@@ -1,4 +1,4 @@
-package Fundamentals.Main.Optional_Task_1;
+package Fundamentals.Main.OptionalTask1;
 
 import java.util.Map;
 import java.util.TreeMap;
