@@ -10,17 +10,29 @@ import java.util.Scanner;
  *  Найти и вывести наибольшее число возрастающих (убывающих) элементов матрицы, идущих подряд.
  */
 
-public class Ex1_3 {
+public class Ex1_3_findMaxLenOfIncreasingSeqInRowOfMatrix {
     // поиск максимального числа возрастающих элементов в массиве
-    private static int findMaxCountSubsequenceInSequence (int[] sequence) {
+    private static int findMaxLenOfIncreasingSeqInRowOfMatrix (int[] sequence) {
+        int[] lengthOfIncreasingSeqAndStartIndex;
+
         int maxSequence = 1;
         int maxSubSequence = 1;
 
+        int startIndex = 0;
+        int stopIndex = 0;
+
         for (int i = 1; i < sequence.length; i++) {
-            if (sequence[i] > sequence[i-1])
+            if (sequence[i] > sequence[i-1]) {
                 maxSubSequence++;
-            if (maxSubSequence > maxSequence)
+            } else {
+                startIndex = i;
+            }
+            stopIndex = i;
+
+            if (maxSubSequence > maxSequence) {
                 maxSequence = maxSubSequence;
+
+            }
 
             maxSubSequence = 1;
         }
@@ -28,7 +40,7 @@ public class Ex1_3 {
     }
 
     // поиск максимального числа возрастающих элементов в матрице
-    private static int findMaxCountSequenceInMatrix(int[][] matrix) {
+    private static int findMaxLenSeqInMatrix(int[][] matrix) {
         int maxSequence = 0;
         int maxSequenceInRow;
         int[] valuesOfRowMatrix;
@@ -39,22 +51,28 @@ public class Ex1_3 {
             for (int in = 0; in < matrix[0].length; in++)
                 valuesOfRowMatrix[in] = ints[in];
 
-            maxSequenceInRow = findMaxCountSubsequenceInSequence(valuesOfRowMatrix);
-            maxSequence = maxSequence > maxSequenceInRow ? maxSequence : maxSequenceInRow;
+            maxSequenceInRow = findMaxLenOfIncreasingSeqInRowOfMatrix(valuesOfRowMatrix);
+
+            if (maxSequence < maxSequenceInRow) {
+                maxSequence = maxSequenceInRow;
+            }
         }
         return maxSequence;
     }
 
     public static void main (String[]args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Insert n: ");
+        System.out.print("Insert dimension: ");
         int inputValue = scanner.nextInt();
 
-        int[][] matrix = Matrix.createMatrix(inputValue, 50);
+        System.out.print("Insert max value: ");
+        int maxValue = scanner.nextInt();
+
+        int[][] matrix = Matrix.createMatrix(inputValue, maxValue);
 
         Matrix.printMatrix(matrix);
 
         System.out.println();
-        System.out.println(findMaxCountSequenceInMatrix(matrix));
+        System.out.println("Наибольшее число возрастающих элементов матрицы, идущих подряд = " + findMaxLenSeqInMatrix(matrix));
     }
 }
