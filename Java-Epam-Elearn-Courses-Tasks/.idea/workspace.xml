@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSubsequenceInSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindMaxElementsOfIncreasingSequenceInRowOfMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindMaxElementsOfIncreasingSequenceInRowOfMatrixTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
