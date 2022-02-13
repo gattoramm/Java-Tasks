@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e3d1218-d0d2-4a80-a04d-7b4d1756ac5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOP/simple/extend/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/fuzzbuzzWithThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindMaxElementsOfIncreasingSequenceInRowOfMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindMaxElementsOfIncreasingSequenceInRowOfMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
