@@ -12,6 +12,18 @@ public class Matrix {
         return matrix;
     }
 
+    public static int[][] createRandomMatrix(int maxDimension, int maxValue) {
+        int dimension = (int) (Math.random() * (maxDimension + 1));
+
+        int[][] matrix = new int[dimension][dimension];
+
+        for (int out = 0; out < dimension; out++)
+            for (int in = 0; in < dimension; in++)
+                matrix[out][in] = (int) (Math.random() * (2 * maxValue + 1)) - maxValue;
+
+        return matrix;
+    }
+
     // распечатка матрицы
     public static void printMatrix(int[][] matrix) {
         for (int out = 0; out <  matrix.length; out++) {
