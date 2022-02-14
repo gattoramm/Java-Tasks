@@ -13,35 +13,53 @@ import java.util.Scanner;
  */
 
 class FindElementsOfMaxIncreasingSequenceInMatrix {
-    // поиск индексов начала и конца наибольших возрастающих элементов в строке массива
-    protected static int[] findIndexesOfMaxIncreasingSequenceInRowOfMatrix(int[] sequence) {
-        if (sequence.length == 0) {
-            return new int[]{-1, -1};
-        }
+    // поиск количества наибольших возрастающих элементов в строке массива
+    protected static int findCountsOfElementsMaxIncreasingSequence(int[] sequence) {
+        if (sequence.length == 0)
+            return 0;
 
         int countSequence = 1;
         int countSubSequence = 1;
 
+        for (int i = 1; i < sequence.length; i++) {
+            if (sequence[i] > sequence[i-1])
+                countSubSequence++;
+            else
+                countSubSequence = 1;
+
+            if (countSubSequence > countSequence)
+                countSequence = countSubSequence;
+        }
+
+        return countSequence;
+    }
+
+    // поиск индексов начала и конца первой последовательности с наибольшими возрастающими элементами в строке массива
+    protected static int[] findIndexesOfMaxIncreasingSequenceInRowOfMatrix(int[] sequence) {
+        int countsOfMaxIncreasingSequence = findCountsOfElementsMaxIncreasingSequence(sequence);
+
+        if (countsOfMaxIncreasingSequence == 0)
+            return new int[]{-1, -1};
+
         int startIndexSequence = 0;
         int stopIndexSequence = 0;
 
-        int startIndexSubSequence = 0;
-        int stopIndexSubSequence;
+        int countSubSequence = 1;
 
-        for (int i = 1; i < sequence.length; i++) {
-            if (sequence[i] > sequence[i-1]) {
+        int i = 1;
+
+        while (i < sequence.length && countSubSequence != countsOfMaxIncreasingSequence) {
+            if (sequence[i] > sequence[i - 1]) {
                 countSubSequence++;
             } else {
-                startIndexSubSequence = i;
+                countSubSequence = 1;
+                startIndexSequence = i;
             }
-            stopIndexSubSequence = i;
+            stopIndexSequence = i;
 
-            if (countSubSequence > countSequence) {
-                countSequence = countSubSequence;
-                startIndexSequence = startIndexSubSequence;
-                stopIndexSequence = stopIndexSubSequence;
-            }
+            i++;
         }
+
         return new int[]{startIndexSequence, stopIndexSequence};
     }
 
@@ -49,6 +67,25 @@ class FindElementsOfMaxIncreasingSequenceInMatrix {
     protected static int[][] findIndexesOfMaxIncreasingSequenceInMatrix(int[][] matrix) {
         if (matrix.length == 0) {
             return new int[][]{{-1, -1}, {-1, -1}};
+        }
+
+        int[] countsOfMaxIncreasingSequenceInRowsMatrix = new int[matrix.length];
+
+
+        for (int i = 0; i < matrix.length; i++) {
+            countsOfMaxIncreasingSequenceInRowsMatrix[i] =
+                    findCountsOfElementsMaxIncreasingSequence(matrix[i]);
+        }
+
+        int maxCountsOfIncreaseSequenceMatrix = 0;
+        int rowWithMaxIncreaseSequence = 0;
+
+        for (int i = 0; i < countsOfMaxIncreasingSequenceInRowsMatrix.length; i++) {
+            int item = countsOfMaxIncreasingSequenceInRowsMatrix[i];
+            if (item > maxCountsOfIncreaseSequenceMatrix) {
+                maxCountsOfIncreaseSequenceMatrix = item;
+                rowWithMaxIncreaseSequence = i;
+            }
         }
 
         int countElementsInSequence = 1;
