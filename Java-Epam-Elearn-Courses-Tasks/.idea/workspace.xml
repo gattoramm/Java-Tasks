@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindCountOfElementsMaxIncreasingSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSubsequenceInSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSubsequenceInSequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +64,9 @@
       <recent name="Fundamentals.Main.OptionalTask2.Ex1_3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindElementsOfMaxIncreasingSubsequenceInSequenceTest">
-    <configuration name="FindElementsOfMaxIncreasingSubsequenceInSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.App" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +74,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSubsequenceInSequenceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithOnePositiveIncreasingElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithFivePositiveElementsAndTwoIncreaseSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +87,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSubsequenceInSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithOnePositiveIncreasingElements" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSequenceInMatrixTest" />
+      <option name="METHOD_NAME" value="matrixWithFivePositiveElementsAndTwoIncreaseSequence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithTwoEqualsPositiveIncreasingSequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithThreeRowsAnyElements1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +103,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSubsequenceInSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithTwoEqualsPositiveIncreasingSequences" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSequenceInMatrixTest" />
+      <option name="METHOD_NAME" value="matrixWithThreeRowsAnyElements1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithTwoPositiveIncreasingElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithTwoRowsWithEqualsPositiveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +119,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSubsequenceInSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithTwoPositiveIncreasingElements" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSequenceInMatrixTest" />
+      <option name="METHOD_NAME" value="matrixWithTwoRowsWithEqualsPositiveElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithTwoPositiveIncreasingSequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithTwoRowsWithoutIncreaseSequenceWithPositiveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSubsequenceInSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithTwoPositiveIncreasingSequences" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindElementsOfMaxIncreasingSequenceInMatrixTest" />
+      <option name="METHOD_NAME" value="matrixWithTwoRowsWithoutIncreaseSequenceWithPositiveElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSubsequenceInSequenceTest" />
-        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithOnePositiveIncreasingElements" />
-        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithTwoEqualsPositiveIncreasingSequences" />
-        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithTwoPositiveIncreasingSequences" />
-        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSubsequenceInSequenceTest.sequenceWithTwoPositiveIncreasingElements" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithFivePositiveElementsAndTwoIncreaseSequence" />
+        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithThreeRowsAnyElements1" />
+        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithTwoRowsWithEqualsPositiveElements" />
+        <item itemvalue="JUnit.FindElementsOfMaxIncreasingSequenceInMatrixTest.matrixWithTwoRowsWithoutIncreaseSequenceWithPositiveElements" />
       </list>
     </recent_temporary>
   </component>

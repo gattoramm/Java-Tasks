@@ -71,7 +71,6 @@ class FindElementsOfMaxIncreasingSequenceInMatrix {
 
         int[] countsOfMaxIncreasingSequenceInRowsMatrix = new int[matrix.length];
 
-
         for (int i = 0; i < matrix.length; i++) {
             countsOfMaxIncreasingSequenceInRowsMatrix[i] =
                     findCountsOfElementsMaxIncreasingSequence(matrix[i]);
@@ -80,6 +79,7 @@ class FindElementsOfMaxIncreasingSequenceInMatrix {
         int maxCountsOfIncreaseSequenceMatrix = 0;
         int rowWithMaxIncreaseSequence = 0;
 
+        // строка с максимальной последовательностью и длина максимальной последовательности
         for (int i = 0; i < countsOfMaxIncreasingSequenceInRowsMatrix.length; i++) {
             int item = countsOfMaxIncreasingSequenceInRowsMatrix[i];
             if (item > maxCountsOfIncreaseSequenceMatrix) {
@@ -88,34 +88,12 @@ class FindElementsOfMaxIncreasingSequenceInMatrix {
             }
         }
 
-        int countElementsInSequence = 1;
-        int countElementsInSequenceInRow;
-        int[] rowOfMatrix;
+        int[] indexMaxSequenceInMatrix =
+                findIndexesOfMaxIncreasingSequenceInRowOfMatrix(matrix[rowWithMaxIncreaseSequence]);
 
-        int startIndexMaxSequenceOfMatrix = 0;
-        int stopIndexMaxSequenceOfMatrix = 0;
-        int resultRow = 0;
-
-        for (int out = 0; out < matrix.length; out++) {
-            int[] ints = matrix[out];
-            rowOfMatrix = new int[matrix.length];
-
-            for (int in = 0; in < matrix[0].length; in++)
-                rowOfMatrix[in] = ints[in];
-
-            int startIndexMaxSequenceInRow = findIndexesOfMaxIncreasingSequenceInRowOfMatrix(rowOfMatrix)[0];
-            int stopIndexMaxSequenceInRow = findIndexesOfMaxIncreasingSequenceInRowOfMatrix(rowOfMatrix)[1];
-
-            countElementsInSequenceInRow = stopIndexMaxSequenceInRow - startIndexMaxSequenceInRow + 1;
-
-            if (countElementsInSequenceInRow >= countElementsInSequence) {
-                countElementsInSequence = countElementsInSequenceInRow;
-                startIndexMaxSequenceOfMatrix = startIndexMaxSequenceInRow;
-                stopIndexMaxSequenceOfMatrix = stopIndexMaxSequenceInRow;
-                resultRow = out;
-            }
-        }
-        return new int[][]{{resultRow, startIndexMaxSequenceOfMatrix}, {resultRow, stopIndexMaxSequenceOfMatrix}};
+        return new int[][]{
+                {rowWithMaxIncreaseSequence, indexMaxSequenceInMatrix[0]},
+                {rowWithMaxIncreaseSequence, indexMaxSequenceInMatrix[1]}};
     }
 }
 
@@ -130,8 +108,7 @@ class App {
         int maxValue = scanner.nextInt();*/
 
         //int[][] matrix = Matrix.createMatrix(inputValue, maxValue);
-        //int[][] matrix = Matrix.createMatrix(0, 50);
-        int[][] matrix = Matrix.createRandomMatrix(4, 10);
+        int[][] matrix = Matrix.createRandomMatrix(10, 50);
 
         int[][] indexesOfMaxIncreaseSequence;
         indexesOfMaxIncreaseSequence =
@@ -147,12 +124,12 @@ class App {
             countOfIncreaseSequence = stopIndexIncreaseSequence - startIndexIncreaseSequence + 1;
             System.out.println("Матрица:");
             Matrix.printMatrix(matrix);
-            System.out.print("Наибольшее число возрастающих элементов матрицы, идущих подряд = " + countOfIncreaseSequence);
+            System.out.println("Наибольшее число возрастающих элементов матрицы, идущих подряд = " + countOfIncreaseSequence);
             System.out.println("Индекс строки = " + rowIncreaseSequence);
             System.out.println("Данные последовательности : ");
 
-            for (int i = 1; i < countOfIncreaseSequence; i++) {
-                System.out.print(matrix[rowIncreaseSequence][startIndexIncreaseSequence + i-1] + " ");
+            for (int i = startIndexIncreaseSequence; i <= stopIndexIncreaseSequence; i++) {
+                System.out.print(matrix[rowIncreaseSequence][i] + " ");
             }
 
         } else {
