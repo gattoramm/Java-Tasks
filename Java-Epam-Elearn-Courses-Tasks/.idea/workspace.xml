@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="" />
+    <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java-Eckel-Book/src/part5_Initialization/Exercises/Ex1_DefaultInit/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Eckel-Book/src/part5_Initialization/Exercises/Ex1_DefaultInit/Ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Eckel-Book/src/part5_Initialization/Exercises/Ex2_TwoObjConstrAndInit/Ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Eckel-Book/src/part5_Initialization/Exercises/Ex2_TwoObjConstrAndInit/Ex2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
