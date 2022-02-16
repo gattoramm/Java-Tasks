@@ -126,7 +126,8 @@ public class FindElementsOfMaxIncreasingSequenceInMatrixTest {
 
     @Test
     public void matrixWithThreeRowsAnyElements1() {
-        int[][] t = {{8, -7, 1}, {-1,-9, 7}, {-7,-9, 2}};
+        int[][] t = {
+                {8, -7, 1}, {-1,-9, 7}, {-7,-9, 2}};
         // индекс строки
         assertEquals(0, getIndexOfRowOfMaxIncreasingSequenceInMatrix(t));
         assertEquals(0, getIndexOfColumnOfMaxIncreasingSequenceInMatrix(t));
@@ -137,7 +138,8 @@ public class FindElementsOfMaxIncreasingSequenceInMatrixTest {
 
     @Test
     public void matrixWithFivePositiveElementsAndTwoIncreaseSequence() {
-        int[][] t = {{1, 2, 3, 0, 1}, {10, 2, 3, 10, 1}, {1, 2, 1, 0, 1}, {1, 2, 3, 0, 1}, {10, 2, 3, 0, 1}};
+        int[][] t = {
+                {1, 2, 3, 0, 1}, {10, 2, 3, 10, 1}, {1, 2, 1, 0, 1}, {1, 2, 3, 0, 1}, {10, 2, 3, 0, 1}};
         // индекс строки
         assertEquals(0, getIndexOfRowOfMaxIncreasingSequenceInMatrix(t));
         assertEquals(0, getIndexOfColumnOfMaxIncreasingSequenceInMatrix(t));

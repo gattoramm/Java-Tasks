@@ -132,8 +132,7 @@ class App {
                 System.out.print(matrix[rowIncreaseSequence][i] + " ");
             }
 
-        } else {
+        } else
             System.out.println("Матрица пустая");
-        }
     }
 }
