@@ -108,6 +108,9 @@ class App {
         int maxValue = scanner.nextInt();*/
 
         //int[][] matrix = Matrix.createMatrix(inputValue, maxValue);
+
+
+
         int[][] matrix = Matrix.createRandomMatrix(10, 50);
 
         int[][] indexesOfMaxIncreaseSequence;

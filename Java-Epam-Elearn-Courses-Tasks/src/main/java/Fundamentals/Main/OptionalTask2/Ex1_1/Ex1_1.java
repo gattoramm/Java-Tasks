@@ -1,4 +1,6 @@
-package Fundamentals.Main.OptionalTask2;
+package Fundamentals.Main.OptionalTask2.Ex1_1;
+
+import Fundamentals.Main.OptionalTask2.Matrix;
 
 import java.util.Scanner;
 
@@ -13,28 +15,30 @@ import java.util.Scanner;
 
 public class Ex1_1 {
     // замена строк
-    private static void changeRowsOfMatrix(int row1, int row2, int[][] matrix) {
+    protected static void changeTwoRowsOfMatrix(int rowOne, int row2, int[][] matrix) {
         for (int i = 0; i <  matrix[0].length; i++) {
-            int tmp = matrix[row1][i];
-            matrix[row1][i] = matrix[row2][i];
+            int tmp = matrix[rowOne][i];
+            matrix[rowOne][i] = matrix[row2][i];
             matrix[row2][i] = tmp;
         }
     }
 
     // сортировка строк матрицы k-го столбца
-    private static void sortedColumnOfMatrix(int column, int[][] matrix) {
+    protected static void sortedColumnOfMatrix(int column, int[][] matrix) {
         // сортировка вставкой
         for (int out = 1; out < matrix[0].length; out++) {
             int in = out;
             int tempValueRowColumn = matrix[out][column-1];
 
             while (in > 0 && matrix[in-1][column-1] >= tempValueRowColumn) {
-                changeRowsOfMatrix(in, in - 1, matrix);
+                changeTwoRowsOfMatrix(in, in - 1, matrix);
                 --in;
             }
         }
     }
+}
 
+class App {
     public static void main (String[]args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Insert dimension: ");
@@ -51,7 +55,7 @@ public class Ex1_1 {
         System.out.print("Insert row: ");
         int row = scanner.nextInt();
 
-        sortedColumnOfMatrix(row, matrix);
+        Ex1_1.sortedColumnOfMatrix(row, matrix);
 
         System.out.println("After :");
         Matrix.printMatrix(matrix);
