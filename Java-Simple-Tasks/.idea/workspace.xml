@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e3d1218-d0d2-4a80-a04d-7b4d1756ac5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OOP/simple_instance/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/Constructor/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/Constructor/MyFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/LambdaIsArgument/LambdaArgumentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstance/IntPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstance/MyIntNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForAnyInterface/MyIntNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForAnyInterface/MyIntNumPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForJenerics/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForJenerics/SomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/StaticMethod/IntPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/StaticMethod/MyIntPredicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindMaxElementsOfIncreasingSequenceInRowOfMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindMaxElementsOfIncreasingSequenceInRowOfMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/Ex1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/fuzzbuzzWithThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/fuzzbuzzWithThreads.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +31,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,16 +71,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.Schildt.MethodOfInstance" />
       <recent name="Strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.simple.extend.A" />
+  <component name="RunManager" selected="Application.ConstructorRefDemo">
+    <configuration name="ConstructorRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Schildt.Constructor.ConstructorRefDemo" />
       <module name="Java-Simple-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.simple.extend.*" />
+          <option name="PATTERN" value="lambda.Schildt.Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dec_in_bin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numeric.binary.dec_in_bin" />
+    <configuration name="MethodRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Schildt.StaticMethod.MethodRefDemo" />
       <module name="Java-Simple-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Numeric.binary.*" />
+          <option name="PATTERN" value="lambda.Schildt.StaticMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fuzzbuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.fuzzbuzz" />
+    <configuration name="MethodRefDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Schildt.MethodOfInstance.MethodRefDemo2" />
       <module name="Java-Simple-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="lambda.Schildt.MethodOfInstance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="octalIncrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numeric.octal.octalIncrement" />
+    <configuration name="MethodRefDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Schildt.MethodOfInstanceForAnyInterface.MethodRefDemo3" />
       <module name="Java-Simple-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Numeric.octal.*" />
+          <option name="PATTERN" value="lambda.Schildt.MethodOfInstanceForAnyInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oop1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.task1.oop1" />
+    <configuration name="MyClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Schildt.MethodOfInstanceForJenerics.MyClassDemo" />
       <module name="Java-Simple-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.task1.*" />
+          <option name="PATTERN" value="lambda.Schildt.MethodOfInstanceForJenerics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.fuzzbuzz" />
-        <item itemvalue="Application.oop1" />
-        <item itemvalue="Application.octalIncrement" />
-        <item itemvalue="Application.dec_in_bin" />
+        <item itemvalue="Application.ConstructorRefDemo" />
+        <item itemvalue="Application.MyClassDemo" />
+        <item itemvalue="Application.MethodRefDemo3" />
+        <item itemvalue="Application.MethodRefDemo2" />
+        <item itemvalue="Application.MethodRefDemo" />
       </list>
     </recent_temporary>
   </component>
