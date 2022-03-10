@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e3d1218-d0d2-4a80-a04d-7b4d1756ac5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOP/simple_instance/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/Constructor/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/Constructor/MyFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/LambdaIsArgument/LambdaArgumentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstance/IntPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstance/MyIntNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForAnyInterface/MyIntNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForAnyInterface/MyIntNumPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForJenerics/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/MethodOfInstanceForJenerics/SomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/StaticMethod/IntPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Schildt/StaticMethod/MyIntPredicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/Ex1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Epam-Elearn-Courses-Tasks/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/fuzzbuzzWithThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/fuzzbuzzWithThreads.java" afterDir="false" />
-    </list>
+    <list default="true" id="2e3d1218-d0d2-4a80-a04d-7b4d1756ac5b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
