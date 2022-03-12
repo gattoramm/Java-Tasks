@@ -5,7 +5,6 @@ package part5_Initialization.Exercises.Ex9_ThisConstructor;
 
 public class Ex9 {
     static class ThisConstructor {
-
         public ThisConstructor() {
             this("12",12);
             System.out.println("Внутри конструктора без параметров");
@@ -13,18 +12,15 @@ public class Ex9 {
 
         public ThisConstructor(int someNum) {
             this();
-
             System.out.println("Внутри конструктора с параметром int, s = " + someNum);
         }
 
         public ThisConstructor(String someStr) {
             this(12);
-
             System.out.println("Внутри конструктора с параметром String, s = " + someStr);
         }
 
         ThisConstructor(String someStr, int someNum) {
-
             System.out.print("Внутри конструктора с параметром String, s = " + someStr);
             System.out.println(" и int = " + someNum);
         }
