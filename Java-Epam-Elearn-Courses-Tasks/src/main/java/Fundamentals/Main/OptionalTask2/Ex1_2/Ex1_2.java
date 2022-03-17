@@ -1,4 +1,6 @@
-package Fundamentals.Main.OptionalTask2;
+package Fundamentals.Main.OptionalTask2.Ex1_2;
+
+import Fundamentals.Main.OptionalTask2.Matrix;
 
 import java.util.Scanner;
 
