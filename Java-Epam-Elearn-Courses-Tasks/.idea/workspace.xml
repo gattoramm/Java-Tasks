@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="ref">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/SortRowsOfMatrixInAsc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_1/FindIndexesOfSortedSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/Ex1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/SortRowsOfMatrixInAsc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_2/Ex1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_4/Ex1_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_5/Ex1_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/.idea/uiDesigner.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -173,7 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647549923273</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ref">
+      <created>1647549935079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647549935079</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ref">
+      <created>1647549941519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647549941519</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ref">
+      <created>1647549949212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647549949212</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,5 +207,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ref" />
     <option name="LAST_COMMIT_MESSAGE" value="ref" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/SortRowsOfMatrixInAsc.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

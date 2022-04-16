@@ -29,30 +29,21 @@ class SortRowsOfMatrixInAsc {
     protected static int[] findIndexesOfSortedSequence(int[] sequence) {
         int len = sequence.length;
         int[] indexesOfSortedSequence = new int[len];
-        for(int i = 0; i < len; i++)
+        for(int i=0; i<len; i++)
             indexesOfSortedSequence[i] = i;
 
         // сортировка вставкой
-//        for (int out = 1; out < sequence.length; out++) {
-//            int in = out;
-//            int tempValue = sequence[out];
-//
-//            while (in > 0 && sequence[in-1] > tempValue) {
-//                sequence[in-1] = sequence[in];
-//                indexesOfSortedSequence[in-1] = in;
-//                in--;
-//            }
-//            //sequence[in] = tempValue;
-//        }
-        for (int i = 1; i < len; i++) {
-            int current = sequence[i];
-            int j = i - 1;
-            while(j >= 0 && current < sequence[j]) {
-                sequence[j+1] = sequence[j];
-                indexesOfSortedSequence[i] = j;
-                j--;
+        for (int out = 1; out < len; out++) {
+            int in = out;
+            int tempValue = sequence[out];
+
+            while (in>0 && sequence[in-1] > tempValue) {
+                sequence[in] = sequence[in-1];
+                indexesOfSortedSequence[in] = indexesOfSortedSequence[in-1];
+                in--;
             }
-            sequence[j+1] = current;
+            sequence[in] = tempValue;
+            indexesOfSortedSequence[out] = in;
         }
 
         return indexesOfSortedSequence;
