@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="ref">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/SortRowsOfMatrixInAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask2/Ex1_1/FindIndexesOfSortedSequenceTest.java" afterDir="false" />
+    <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="добавил TDD тест, проверяющий индексы отсортированного массива">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_2/Ex1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_2/SortColumnsOfMatrixInAsc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Simple-Tasks" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/ramm/GitHub/Java-Tasks/Java-Eckel-Book",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Fundamentals.Main.OptionalTask2.Ex1_3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithFiveDecreaseElements">
-    <configuration name="FindCountOfElementsMaxIncreasingSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.App" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_3.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_3.FindCountOfElementsMaxIncreasingSequenceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithFiveDecreaseElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithFiveEqualsElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
       <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithFiveDecreaseElements" />
+      <option name="METHOD_NAME" value="sequenceWithFiveEqualsElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithFiveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithSevenAnyElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
       <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithFiveElements" />
+      <option name="METHOD_NAME" value="sequenceWithSevenAnyElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithFiveIncreaseElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithThreeAnyElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
       <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithFiveIncreaseElements" />
+      <option name="METHOD_NAME" value="sequenceWithThreeAnyElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithFiveDecreaseElements" />
-        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithFiveIncreaseElements" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithThreeAnyElements" />
+        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithSevenAnyElements" />
+        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithFiveEqualsElements" />
         <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest" />
-        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithFiveElements" />
-        <item itemvalue="JUnit.FindCountOfElementsMaxIncreasingSequenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +187,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647549949212</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Теперь матрица не может быть пустой - минимальная размерность 1">
+      <created>1650617874111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650617874111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="переделал через метод, запоминающий новые индексы отсортированного столбца">
+      <created>1650618048759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650618048759</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавил TDD тест, проверяющий индексы отсортированного массива">
+      <created>1650619668665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650619668665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,17 +224,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ref" />
-    <option name="LAST_COMMIT_MESSAGE" value="ref" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/SortRowsOfMatrixInAsc.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Теперь матрица не может быть пустой - минимальная размерность 1" />
+    <MESSAGE value="переделал через метод, запоминающий новые индексы отсортированного столбца" />
+    <MESSAGE value="добавил TDD тест, проверяющий индексы отсортированного массива" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил TDD тест, проверяющий индексы отсортированного массива" />
   </component>
 </project>
