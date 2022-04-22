@@ -13,8 +13,8 @@ public class Matrix {
     }
 
     public static int[][] createRandomMatrix(int maxDimension, int maxValue) {
-        int dimension = (int) (Math.random() * (maxDimension + 1));
-
+        int dimension = (int) (Math.random() * maxDimension);
+        dimension++;
         int[][] matrix = new int[dimension][dimension];
 
         for (int out = 0; out < dimension; out++)
