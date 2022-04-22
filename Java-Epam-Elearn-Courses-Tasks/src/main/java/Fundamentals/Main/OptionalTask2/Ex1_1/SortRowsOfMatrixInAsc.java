@@ -11,20 +11,11 @@ import java.util.Scanner;
  *
  *  Упорядочить строки матрицы в порядке возрастания
  *  значений элементов k-го столбца.
+ *
+ *  note: row - строка, column - столбец
  */
 
 class SortRowsOfMatrixInAsc {
-    // перестановка 2х строк
-    protected static int[][] matrixWithSwapTwoRowsO(int row1, int row2, int[][] matrix) {
-        int[][] matrixWithSwapRows = matrix;
-        for (int i = 0; i <  matrixWithSwapRows[0].length; i++) {
-            int tmp = matrixWithSwapRows[row1][i];
-            matrixWithSwapRows[row1][i] = matrixWithSwapRows[row2][i];
-            matrixWithSwapRows[row2][i] = tmp;
-        }
-        return matrixWithSwapRows;
-    }
-
     // новые индексы массива после сортировки значений
     protected static int[] findIndexesOfSortedSequence(int[] sequence) {
         int len = sequence.length;
@@ -43,52 +34,57 @@ class SortRowsOfMatrixInAsc {
                 in--;
             }
             sequence[in] = tempValue;
-            indexesOfSortedSequence[out] = in;
+            indexesOfSortedSequence[in] = out;
         }
-
         return indexesOfSortedSequence;
     }
 
-    // новые индексы строк после сортировки значений (по возрастанию) в данном столбце
-    protected static int[] findIndexesOfSortedByValuesInColumn(int column, int[][] matrix) {
-        // создадим массив со значениями индексов выбранного столбца
-        // отсортируем значения выбранного столбца и сохраним переставленные индексы
-        int[] indexesOfSortedByValuesInColumn = new int[matrix[0].length];
+    // новая матрица с переставленными строками
+    protected static int[][] matrixWithSortedColumnsByRow(int row, int[][] matrix) {
+        int[] rowValue = new int[matrix.length];
 
-//        // сортировка вставкой
-//        for (int out = 1; out < matrix[0].length; out++) {
-//            int in = out;
-//            int tempValueRowColumn = matrix[out][column-1];
-//
-//            while (in > 0 && matrix[in-1][column-1] >= tempValueRowColumn) {
-//                swapTwoRowsOfMatrix(in, in - 1, matrix);
-//                --in;
-//            }
-//        }
-        return null;
+        for (int i = 0; i < matrix.length; i++)
+            rowValue[i] = matrix[i][row];
+        int[] indexSortedSequence = findIndexesOfSortedSequence(rowValue);
+
+        int[][] resMatrix = new int[matrix.length][matrix[0].length];
+        for (int out = 0; out < matrix.length; out++)
+            for (int in = 0; in < matrix[0].length; in++) {
+                resMatrix[out][in] = matrix[indexSortedSequence[out]][in];
+        }
+
+        return resMatrix;
     }
 }
 
 class App {
-    public static void main (String[]args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Insert dimension: ");
+    public static void main (String[] args){
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите размерность квадратной матрицы: ");
+
         int inputValue = scanner.nextInt();
+        System.out.print("Введите максимальное число: ");
 
-        System.out.print("Insert max value: ");
-        int maxValue = scanner.nextInt();
+        int maxValue = scanner.nextInt();*/
 
-        int[][] matrix = Matrix.createMatrix(inputValue, maxValue);
+        //int[][] matrix = Matrix.createMatrix(inputValue, maxValue);
+
+
+        int maxDimension = 5; int maxValue = 50;
+        int[][] matrix = Matrix.createRandomMatrix(maxDimension, maxValue);
 
         System.out.println("Before :");
         Matrix.printMatrix(matrix);
 
-        System.out.print("Insert row: ");
-        int row = scanner.nextInt();
+        int row = (int) (Math.random() * matrix.length);
 
-//        SortRowsOfMatrixInAsc.sortingRowsOfMatrix(row, matrix);
-//
-//        System.out.println("After :");
-//        Matrix.printMatrix(matrix);
+        System.out.println("row = " + row);
+
+        int[][] res = SortRowsOfMatrixInAsc.matrixWithSortedColumnsByRow(row, matrix);
+
+        System.out.println("After: ");
+
+        Matrix.printMatrix(res);
+
     }
 }
