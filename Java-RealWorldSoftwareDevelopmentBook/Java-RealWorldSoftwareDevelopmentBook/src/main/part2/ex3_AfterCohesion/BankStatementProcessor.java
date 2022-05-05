@@ -5,6 +5,7 @@ import java.time.Month;
 import java.util.List;
 
 
+// группировка операций вычисления в класс BankStatementProcessor
 public class BankStatementProcessor {
     private final List<BankTransaction> bankTransactions;
 

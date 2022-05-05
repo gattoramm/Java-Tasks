@@ -3,6 +3,7 @@ package main.part2.ex3_AfterCohesion;
 import java.time.LocalDate;
 import java.util.Objects;
 
+// доменный класс для банковских операций
 public class BankTransaction {
     private final LocalDate date;
     private final double amount;
