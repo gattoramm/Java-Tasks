@@ -1,6 +1,5 @@
 package main.part2.ex3_AfterCohesion;
 
-import main.part2.ex2_AfterSRP.BankTransaction;
 
 import java.time.Month;
 import java.util.List;
