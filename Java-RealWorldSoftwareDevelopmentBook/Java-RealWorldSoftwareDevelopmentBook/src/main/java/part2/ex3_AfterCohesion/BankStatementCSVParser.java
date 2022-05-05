@@ -1,4 +1,5 @@
-package main.part2.ex2_AfterSRP;
+package main.java.part2.ex3_AfterCohesion;
+
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

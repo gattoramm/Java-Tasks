@@ -1,4 +1,4 @@
-package main.part2.ex4_AfterCoupling;
+package part2.ex4_AfterCoupling;
 
 
 import java.time.LocalDate;
