@@ -24,8 +24,6 @@ public class BankStatementAnalyzer {
         collectSummary(bankStatementProcessor);
     }
 
-    private static final BankStatementCSVParser bankStatementParser = new BankStatementCSVParser();
-
     private static void collectSummary(final BankStatementProcessor bankStatementProcessor) {
         System.out.println("The total for all transactions is " + bankStatementProcessor.calculateTotalAmount());
         System.out.println("The total for transactions in February " + bankStatementProcessor.calculateTotalInMonth(Month.FEBRUARY));
