@@ -1,6 +1,7 @@
 package main.part2.ex3_AfterCohesion;
 
 
+// пример логической связности
 public class BankTransactionParser {
     public BankTransaction parseFromCSV(final String line) {
         // ...

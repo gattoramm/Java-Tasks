@@ -2,6 +2,7 @@ package main.part2.ex3_AfterCohesion;
 
 import java.time.LocalDate;
 
+// пример информационной связности
 public class BankTransactionDAO {
     public BankTransaction create(final LocalDate date, final Double amount, final String description) {
         // ...

@@ -9,6 +9,7 @@ import java.time.Month;
 import java.util.List;
 
 
+// обработка списка транзакций при помощи класса BankTransactionAnalyzer
 public class BankTransactionAnalyzer {
     private static final String RESOURCES = "src/main/resources/";
     private static final BankStatementCSVParser bankStatementParser = new BankStatementCSVParser();
