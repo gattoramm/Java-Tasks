@@ -1,4 +1,4 @@
-package main.part2.AfterSRP;
+package main.part2.ex2_AfterSRP;
 
 import java.io.IOException;
 import java.nio.file.Files;

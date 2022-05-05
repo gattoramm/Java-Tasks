@@ -1,4 +1,4 @@
-package main.part2.AfterSRP;
+package main.part2.ex2_AfterSRP;
 
 public class BankTransactionParser {
     public BankTransaction parseFromCSV(final String line) {
