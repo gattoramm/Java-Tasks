@@ -1,4 +1,4 @@
-package main.java.part2.ex3_AfterCohesion;
+package part2.ex3_AfterCohesion;
 
 
 import java.time.Month;
