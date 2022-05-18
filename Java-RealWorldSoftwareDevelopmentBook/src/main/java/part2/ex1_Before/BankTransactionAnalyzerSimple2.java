@@ -9,11 +9,6 @@ import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-/**
- * если файл пустой?...
- * как посчитать сумму из файла, если данные повреждены?...
- * что, если пропущены какие-либо данные?...
- */
 
 public class BankTransactionAnalyzerSimple2 {
     private static final String RESOURCES = "src/main/resources/";

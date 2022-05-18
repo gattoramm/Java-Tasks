@@ -6,11 +6,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-/**
- * если файл пустой?...
- * как посчитать сумму из файла, если данные повреждены?...
- * что, если пропущены какие-либо данные?...
- */
 
 public class BankTransactionAnalyzerSimple {
     private static final String RESOURCES = "src/main/resources/";
