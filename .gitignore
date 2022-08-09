@@ -1,57 +1,12 @@
-# Compiled class file
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-Java-Algorithms-Lafore/.idea/dbnavigator.xml
-Java-Eckel-Book/.idea/dbnavigator.xml
-Java-Eckel-Book/.idea/vcs.xml
-Java-JSON-Tasks/.idea/dbnavigator.xml
-Java-JSON-Tasks/.idea/vcs.xml
-Java-Questions-for-Junior/.idea/workspace.xml
-Java-Questions-for-Junior/.idea/vcs.xml
-Java-Questions-for-Junior/.idea/modules.xml
-Java-Questions-for-Junior/.idea/misc.xml
-Java-Questions-for-Junior/.idea/Java-Questions-for-Junior.iml
-Java-Questions-for-Junior/.idea/dbnavigator.xml
-Java-Questions-for-Junior/.idea/checkstyle-idea.xml
-Java-SOLID/.idea/dbnavigator.xml
-Java-SOLID/.idea/misc.xml
-Java-SOLID/.idea/checkstyle-idea.xml
-Java-SOLID/.idea/vcs.xml
-Java-SOLID/.idea/uiDesigner.xml
-Java-SOLID/.idea/modules.xml
-Java-SOLID/Java-SOLID.iml
-Java-JUnit-Test-Tasks/.idea/workspace.xml
-Java-JUnit-Test-Tasks/.idea/workspace.xml
-Java-Simple-Tasks/.idea/codeStyles/Project.xml
-Java-Simple-Tasks/.idea/codeStyles/codeStyleConfig.xml
-Java-Simple-Tasks/.idea/misc.xml
-Java-Eckel-Book/.idea/misc.xml
-Java-Eckel-Book/.idea/misc.xml
-Java-Eckel-Book/JavaEckel.iml
-Java-Eckel-Book/.idea/misc.xml
+Java-Algorithms-Lafore/.idea/*
+Java-Eckel-Book/.idea/*
+Java-JSON-Tasks/.idea/*
+Java-Questions-for-Junior/.idea/*
+Java-SOLID/.idea/*
+Java-JUnit-Test-Tasks/.idea/*
+Java-Simple-Tasks/.idea/*
+Java-Eckel-Book/.idea/*
 Java-Simple-Tasks/.idea/workspace.xml
-Java-Epam-Elearn-Courses-Tasks/.idea/workspace.xml
-
-Java-SOLID/.idea/Java-SOLID.iml
-
-*.iml
+Java-Epam-Elearn-Courses-Tasks/.idea/*
