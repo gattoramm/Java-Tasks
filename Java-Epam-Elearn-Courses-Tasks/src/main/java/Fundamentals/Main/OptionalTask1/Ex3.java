@@ -1,27 +1,38 @@
 package Fundamentals.Main.OptionalTask1;
 
+import java.util.Scanner;
+
 /**
- * Задание. Ввести n чисел с консоли.
+ * Ввести n чисел с консоли.
  * Вывести на консоль те числа, длина которых меньше (больше) средней длины по всем числам, а также длину.
  */
 
 public class Ex3 {
     public static void main(String[] args) {
-        if(args.length == 0) return;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите количество чисел: ");
+        int count= scanner.nextInt();
 
-        String[] list = new String[args.length];
+        int[] values = new int[count];
+        for (int i = 0; i < count; i++)
+            values[i] = scanner.nextInt();
 
-        int avrLenght = 0;
+        int[] lenValues = new int[count];
+        for (int i = 0; i < count; i++)
+            lenValues[i] = String.valueOf(values[i]).length();
 
-        for (int i = 0; i < args.length; i++) {
-            avrLenght += args[i].length();
-            list[i] = args[i];
-        }
-        avrLenght /= list.length;
+        int meanLength = 0;
 
-        for(String item : list) {
-            if (item.length() > avrLenght)
-                System.out.println(item);
+        for (int i = 0; i < count; i++)
+            meanLength += lenValues[i];
+
+        meanLength /= count;
+
+        System.out.println("Mean: " + meanLength);
+
+        for (int i = 0; i < count; i++) {
+            if (lenValues[i] > meanLength)
+                System.out.println("value = " + values[i] + ", len: " + lenValues[i]);
         }
     }
 }

@@ -1,33 +1,45 @@
 package Fundamentals.Main.OptionalTask1;
 
+import java.util.Scanner;
+
 /**
- * Задание. Ввести n чисел с консоли.
+ * Ввести n чисел с консоли.
  * Вывести числа в порядке возрастания (убывания) значений их длины.
  */
 
 public class Ex2 {
 
     public static void main(String[] args) {
-        if(args.length == 0) return;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите количество чисел: ");
+        int count= scanner.nextInt();
 
-        int[] list = new int[args.length];
-
-        for (int i = 0; i < args.length; i++)
-            list[i] = Integer.parseInt(args[i]);
-
-        int in, out;
-
-        for (out = 1; out < list.length; out++) {
-            int temp = list[out];
-            in = out;
-            while (in > 0 && list[in-1] >= temp) {
-                list[in] = list[in-1];
-                --in;
-            }
-            list[in] = temp;
+        int[] values = new int[count];
+        for (int i = 0; i < count; i++) {
+            values[i] = scanner.nextInt();
         }
 
-        for (int item : list)
-            System.out.println(item);
+        int[] lenValues = new int[count];
+        for (int i = 0; i < count; i++) {
+            lenValues[i] = String.valueOf(values[i]).length();
+        }
+
+        // сортировка вставкой
+        for (int out = 1; out < count; out++) {
+            int in = out;
+            int tempLenValue = lenValues[out];
+            int tempValue = values[out];
+
+            while (in>0 && lenValues[in-1] > tempLenValue) {
+                lenValues[in] = lenValues[in-1];
+                values[in] = values[in-1];
+                in--;
+            }
+            lenValues[in] = tempLenValue;
+            values[in] = tempValue;
+        }
+
+        for (int v : values)
+            System.out.println(v);
     }
 }
