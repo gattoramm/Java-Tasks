@@ -23,6 +23,7 @@ class ConstructorRefDemo {
         // new ссылается на параметризованный конструктор MyClass,
         // а не на конструктор по умолчанию.
         MyFunc myClassCons = MyClass::new;
+//        s -> new MyClass("");
 
         // Создать экземпляр MyClass посредством ссылки на конструктор
         MyClass mc = myClassCons.func("Тестирование");

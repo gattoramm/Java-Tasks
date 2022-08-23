@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="Вынес проект Java-RealWorldSoftwareDevelopmentBook как отдельный" />
+    <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="Вынес проект Java-RealWorldSoftwareDevelopmentBook как отдельный">
+      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/other/example1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/other/example1/SomeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/Two_Sum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/ex771/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/Schildt/Constructor/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/Schildt/Constructor/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetsCode/Arrays/arr1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/Arrays/arr1/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,10 +58,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ramm/GitHub/Java-Tasks/Java-Eckel-Book&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/GitHub/Java-Tasks/Java-Epam-Elearn-Courses-Tasks&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -60,13 +71,13 @@
       <recent name="Fundamentals.Main.OptionalTask2.Ex1_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.App" />
+  <component name="RunManager" selected="Application.Ex4_withTreeMap">
+    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex1" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,76 +85,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIndexesOfSortedSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.MainTask.Ex2" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.MainTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithFiveEqualsElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex4_withTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4_withTreeMap" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithFiveEqualsElements" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithSevenAnyElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Fundamentals.Main.OptionalTask1.Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex2" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithSevenAnyElements" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIndexesOfSortedSequenceTest.sequenceWithThreeAnyElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Fundamentals.Main.OptionalTask1.Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex3" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
-      <option name="METHOD_NAME" value="sequenceWithThreeAnyElements" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithThreeAnyElements" />
-        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithSevenAnyElements" />
-        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest.sequenceWithFiveEqualsElements" />
-        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest" />
+        <item itemvalue="Application.Ex4_withTreeMap" />
+        <item itemvalue="Application.Fundamentals.Main.OptionalTask1.Ex3" />
+        <item itemvalue="Application.Fundamentals.Main.OptionalTask1.Ex2" />
+        <item itemvalue="Application.Ex1" />
+        <item itemvalue="Application.Ex2" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package leetsCode.Arrays.arr1;
+package leetCode.Arrays.arr1;
 /*первые 2 или последние 3*/
 public class Solution {
     public static int findMaxConsecutiveOnes(int[] nums) {
