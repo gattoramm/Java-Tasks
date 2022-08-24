@@ -8,7 +8,7 @@
 
 ### Адаптер
 
-<details><summary><b>Adapter</b></summary>
+<details><summary><b>Patterns.Adapter</b></summary>
 
 [Пример1](src/Adapter/task1)
 

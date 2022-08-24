@@ -1,4 +1,4 @@
-package Adapter.task2;
+package Patterns.Adapter.task2;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
