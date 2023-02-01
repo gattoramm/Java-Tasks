@@ -1,65 +1,78 @@
 package leetCode.Arrays.arr3;
 
 public class Solution {
-    private static int findMinPositive(int[] nums) {
-        int i = 0;
-        while(i < nums.length && nums[i] < 0)
-            i++;
+    private static int findMin(int[] nums) {
+        int indx = 0;
+        for (int i = 0; i < nums.length & nums[indx] < 0; i++)
+            indx = i;
 
-        if(i != 0 && nums[i] > -nums[i - 1])
-            i--;
+        if (indx != 0 && nums[indx] > -nums[indx - 1])
+            indx--;
 
-        return i;
+        return indx;
     }
 
-    private static int[] newNums(int[] nums, int indx) {
+    private static int[] newNums(int[] nums) {
         int len = nums.length;
+        int md = findMin(nums);
         int[] result = new int[len];
 
-        result[0] = nums[indx];
-        int k = 1;
+        if (md == 0)
+            result = nums;
+        else if (md == len - 1)
+            for (int i = 0; i < len; i++)
+                result[i] = nums[len - 1 - i];
+        else {
+            result[0] = nums[md];
+            int k = 1;
 
-        int left = indx - 1;
-        int right = indx + 1;
+            int left = md - 1;
+            int right = md + 1;
 
-        while (left > -1 && right < len) {
-            if (-nums[left] < nums[right]) result[k] = nums[left--];
-            else result[k] = nums[right++];
-            k++;
+            while (left > -1 & right < len) {
+                if (-nums[left] < nums[right])
+                    result[k] = nums[left--];
+                else
+                    result[k] = nums[right++];
+                k++;
+            }
+
+            if (right == len) result[k] = nums[left];
+            if (left == -1) result[k] = nums[right];
         }
-
-        if (right == len) result[k] = nums[left];
-        if (left == -1) result[k] = nums[right];
 
         return result;
     }
 
     private static int[] square(int[] nums) {
         int[] squareNums = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++)
             squareNums[i] = nums[i]*nums[i];
-        }
+
         return squareNums;
     }
 
     public static void main(String[] args) {
-        int[] n1 = {-1};
+//        int[] n5 = {-1};
+//        int[] n2 = {-2, 2};
+//        int[] n3 = {-79, -5, -4, -3, -2, 3, 4, 6, 60, 119};
+//        int[] n5 = {-4,-1,0,3,10};
+//        int[] n5 = {-5,-3,-2,-1};
+//        int[] n5 = {0, 2};
+//        int[] n5 = {-1,2,2};
+        int[] n5 = {-1,0,4,4};
 
-        int mm = findMinPositive(n1);
-        int len = n1.length;
-        int[] sortNums = new int[len];
 
-        if (mm == 0)
-            sortNums = n1;
-        else if (mm == len - 1)
-            for (int i = 0; i < len; i++)
-                sortNums[i] = n1[len - 1 - i];
-        else {
-            sortNums = newNums(n1, mm);
-        }
+//        int[] sortNums1 = newNums(n1);
+//        int[] sortNums2 = newNums(n2);
+//        int[] sortNums3 = newNums(n3);
+//        int[] sortNums4 = newNums(n4);
+        int[] sortNums5 = newNums(n5);
 
-        for (int i : square(sortNums)) {
-            System.out.println(i);
-        }
+//        for (int i : square(sortNums1)) System.out.println(i);
+//        System.out.println("---------------");
+//        for (int i : square(sortNums2)) System.out.println(i);
+//        System.out.println("---------------");
+        for (int i : square(sortNums5)) System.out.println(i);
     }
 }
