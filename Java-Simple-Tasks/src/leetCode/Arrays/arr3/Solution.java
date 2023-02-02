@@ -26,19 +26,18 @@ public class Solution {
             result[0] = nums[md];
             int k = 1;
 
-            int left = md - 1;
-            int right = md + 1;
+            int left = md - 1; int right = md + 1;
 
-            while (left > -1 & right < len) {
-                if (-nums[left] < nums[right])
-                    result[k] = nums[left--];
-                else
-                    result[k] = nums[right++];
-                k++;
-            }
+            while (left > -1 & right < len)
+                result[k++] = -nums[left] < nums[right] ? nums[left--] : nums[right++];
 
-            if (right == len) result[k] = nums[left];
-            if (left == -1) result[k] = nums[right];
+            if (left == -1)
+                for (int i = k; i < len; i++)
+                    result[i] = nums[i];
+
+            if (right == len)
+                for (int i = k; i < len; i++)
+                    result[i] = nums[left - i + k];
         }
 
         return result;
@@ -57,22 +56,13 @@ public class Solution {
 //        int[] n2 = {-2, 2};
 //        int[] n3 = {-79, -5, -4, -3, -2, 3, 4, 6, 60, 119};
 //        int[] n5 = {-4,-1,0,3,10};
-//        int[] n5 = {-5,-3,-2,-1};
+        int[] n5 = {-5,-3,-2,-1};
 //        int[] n5 = {0, 2};
 //        int[] n5 = {-1,2,2};
-        int[] n5 = {-1,0,4,4};
+//        int[] n5 = {-1,0,4,4};
 
-
-//        int[] sortNums1 = newNums(n1);
-//        int[] sortNums2 = newNums(n2);
-//        int[] sortNums3 = newNums(n3);
-//        int[] sortNums4 = newNums(n4);
         int[] sortNums5 = newNums(n5);
 
-//        for (int i : square(sortNums1)) System.out.println(i);
-//        System.out.println("---------------");
-//        for (int i : square(sortNums2)) System.out.println(i);
-//        System.out.println("---------------");
         for (int i : square(sortNums5)) System.out.println(i);
     }
 }
