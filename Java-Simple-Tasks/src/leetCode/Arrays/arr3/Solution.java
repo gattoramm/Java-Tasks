@@ -1,15 +1,33 @@
 package leetCode.Arrays.arr3;
 
 public class Solution {
+//    private static int findMin(int[] nums) {
+//        int indx = 0;
+//        for (int i = 0; i < nums.length & nums[indx] < 0; i++)
+//            indx = i;
+//
+//        if (indx != 0 && nums[indx] > -nums[indx - 1])
+//            indx--;
+//
+//        return indx;
+//    }
+
     private static int findMin(int[] nums) {
-        int indx = 0;
-        for (int i = 0; i < nums.length & nums[indx] < 0; i++)
-            indx = i;
+        int left = 0;
+        int right = nums.length;
+        int middle = 0;
 
-        if (indx != 0 && nums[indx] > -nums[indx - 1])
-            indx--;
+        while (left < right & nums[middle] < 0) {
+            middle = (left + right) /2;
 
-        return indx;
+            if (nums[middle] < 0) left = middle + 1;
+            else right = middle - 1;
+        }
+
+        while (middle != 0 && nums[middle] >= -nums[middle - 1])
+            middle--;
+
+        return middle;
     }
 
     private static int[] newNums(int[] nums) {
@@ -52,16 +70,17 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-//        int[] n5 = {-1};
-//        int[] n2 = {-2, 2};
-//        int[] n3 = {-79, -5, -4, -3, -2, 3, 4, 6, 60, 119};
-//        int[] n5 = {-4,-1,0,3,10};
-        int[] n5 = {-5,-3,-2,-1};
-//        int[] n5 = {0, 2};
-//        int[] n5 = {-1,2,2};
-//        int[] n5 = {-1,0,4,4};
+//        int[] n = {-1};
+//        int[] n = {-2, 2};
+//        int[] n = {-79, -5, -4, -3, -2, 3, 4, 6, 60, 119};
+//        int[] n = {-4,-1,0,3,10};
+//        int[] n = {-5,-3,-2,-1};
+//        int[] n = {0, 2};
+//        int[] n = {-1,2,2};
+//        int[] n = {-1,0,4,4};
+        int[] n = {-4,-3,-2,3,3};
 
-        int[] sortNums5 = newNums(n5);
+        int[] sortNums5 = newNums(n);
 
         for (int i : square(sortNums5)) System.out.println(i);
     }
