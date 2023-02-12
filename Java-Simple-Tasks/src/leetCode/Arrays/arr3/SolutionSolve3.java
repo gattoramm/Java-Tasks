@@ -16,12 +16,18 @@ public class SolutionSolve3 {
     }
 
     private static int findLastNegativeNum(int[] nums) {
-        int indx = 0;
+        int left = 0;
+        int right = nums.length;
+        int middle = 0;
 
-        for (int i = 0; i < nums.length & nums[indx] < 0; i++)
-            indx = i;
+        while (left <= right) {
+            middle = (left + right) /2;
 
-        return indx;
+            if (nums[middle] < 0) left = middle + 1;
+            else right = middle - 1;
+        }
+
+        return middle;
     }
 
     public static void main(String[] args) {
