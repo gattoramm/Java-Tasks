@@ -1,6 +1,6 @@
-package Fundamentals.Main.OptionalTask1.Ex3;
+package Fundamentals.Main.OptionalTask1;
 
-import Fundamentals.Main.OptionalTask1.ValuesFromConsole;
+import java.util.Scanner;
 
 /**
  * Ввести n чисел с консоли.
@@ -9,8 +9,13 @@ import Fundamentals.Main.OptionalTask1.ValuesFromConsole;
 
 public class Ex3 {
     public static void main(String[] args) {
-        int[] values = ValuesFromConsole.numsFromConsole();
-        int count = values.length;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите количество чисел: ");
+        int count= scanner.nextInt();
+
+        int[] values = new int[count];
+        for (int i = 0; i < count; i++)
+            values[i] = scanner.nextInt();
 
         int[] lenValues = new int[count];
         for (int i = 0; i < count; i++)

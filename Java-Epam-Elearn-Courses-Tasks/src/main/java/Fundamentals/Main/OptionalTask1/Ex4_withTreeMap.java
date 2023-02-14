@@ -1,4 +1,4 @@
-package Fundamentals.Main.OptionalTask1.Ex4;
+package Fundamentals.Main.OptionalTask1;
 
 import java.math.BigInteger;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Fundamentals.Main.OptionalTask1.Ex7;
+package Fundamentals.Main.OptionalTask1;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class Ex7 {
 
             for (int out = 0; out < chNums.length; out++) {
                 num1 = Integer.parseInt(String.valueOf(chNums[out]));
-                for (int in = out + 1; in < chNums.length; in++) {
+                for (int in = out+1; in < chNums.length; in++) {
                     num2 = Integer.parseInt(String.valueOf(chNums[in]));
                     if (num1 == num2)
                         charsInWordDifferent = false;

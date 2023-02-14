@@ -8,8 +8,10 @@ import java.util.Scanner;
  * Задание. Ввести с консоли n - размерность матрицы a [n] [n].
  * Задать значения элементов матрицы в интервале значений от -M до M
  * с помощью генератора случайных чисел (класс Random).
+ *
  *  Упорядочить строки матрицы в порядке возрастания
  *  значений элементов k-го столбца.
+ *
  *  note: row - строка, column - столбец
  */
 
@@ -47,7 +49,9 @@ class SortRowsOfMatrixInAsc {
 
         int[][] resMatrix = new int[matrix.length][matrix[0].length];
         for (int out = 0; out < matrix.length; out++)
-            System.arraycopy(matrix[indexSortedSequence[out]], 0, resMatrix[out], 0, matrix[0].length);
+            for (int in = 0; in < matrix[0].length; in++) {
+                resMatrix[out][in] = matrix[indexSortedSequence[out]][in];
+        }
 
         return resMatrix;
     }
