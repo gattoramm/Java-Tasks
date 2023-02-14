@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="Вынес проект Java-RealWorldSoftwareDevelopmentBook как отдельный">
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/other/example1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/other/example1/SomeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/Two_Sum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/ex771/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/ValuesFromConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask1/Ex1/AppTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/Schildt/Constructor/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/Schildt/Constructor/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetsCode/Arrays/arr1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/Arrays/arr1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/MainTask/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/MainTask/Ex1/Solve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex2/Ex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex3/Ex3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex4_withTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex4/Ex4_withTreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex5/Ex5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex6/Ex6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex7/Ex7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/SortRowsOfMatrixInAsc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_1/SortRowsOfMatrixInAsc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_2/SortColumnsOfMatrixInAsc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_2/SortColumnsOfMatrixInAsc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask2/Ex1_3/FindElementsOfMaxIncreasingSequenceInMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,16 +75,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Fundamentals.Main.OptionalTask1.Ex2" />
+      <recent name="Fundamentals.Main.OptionalTask1.Ex1" />
       <recent name="Fundamentals.Main.OptionalTask2.Ex1_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex4_withTreeMap">
-    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex1" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex1.App" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.MainTask.Ex2" />
+    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex3.Ex3" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.MainTask.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Ex4_withTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4_withTreeMap" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4.Ex4_withTreeMap" />
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,39 +120,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fundamentals.Main.OptionalTask1.Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex2" />
-      <module name="Java-Epam-Elearn-Courses-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fundamentals.Main.OptionalTask1.Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex3" />
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTests.testEmptyMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex1" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex1.AppTests" />
+      <option name="METHOD_NAME" value="testEmptyMassive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindIndexesOfSortedSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-Epam-Elearn-Courses-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask2.Ex1_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask2.Ex1_1.FindIndexesOfSortedSequenceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTests.testEmptyMassive" />
+        <item itemvalue="JUnit.FindIndexesOfSortedSequenceTest" />
         <item itemvalue="Application.Ex4_withTreeMap" />
-        <item itemvalue="Application.Fundamentals.Main.OptionalTask1.Ex3" />
-        <item itemvalue="Application.Fundamentals.Main.OptionalTask1.Ex2" />
-        <item itemvalue="Application.Ex1" />
-        <item itemvalue="Application.Ex2" />
       </list>
     </recent_temporary>
   </component>
