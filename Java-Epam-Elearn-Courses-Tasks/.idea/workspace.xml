@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="Вынес проект Java-RealWorldSoftwareDevelopmentBook как отдельный">
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/other/example1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/other/example1/SomeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/Two_Sum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/ex771/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/Schildt/Constructor/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/lambda/Schildt/Constructor/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetsCode/Arrays/arr1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Simple-Tasks/src/leetCode/Arrays/arr1/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +129,42 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
