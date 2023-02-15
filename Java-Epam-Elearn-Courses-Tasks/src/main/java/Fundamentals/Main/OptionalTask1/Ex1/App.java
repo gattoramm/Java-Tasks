@@ -8,25 +8,32 @@ import Fundamentals.Main.OptionalTask1.ValuesFromConsole;
  */
 
 public class App {
-    public static int[] minMax(int[] nums) {
-        if (nums == null) return new int[]{-1, -1};
+    public static int[] shortLong(int[] nums) {
+        if (nums == null) return null;
 
-        int lenValue = String.valueOf(nums[0]).length();
-        int minElem = lenValue, maxElem = lenValue;
+        int lenOfValue = String.valueOf(nums[0]).length();
+        int minLen = lenOfValue, maxLen = lenOfValue;
+        int shortValue = nums[0], longValue = nums[0];
 
         for (int item:nums) {
-            lenValue = String.valueOf(item).length();
+            lenOfValue = String.valueOf(item).length();
 
-            if (minElem > lenValue) minElem = item;
-            if (maxElem < lenValue) maxElem = item;
+            if (minLen > lenOfValue) {
+                minLen = lenOfValue;
+                shortValue = item;
+            }
+            if (maxLen <= lenOfValue) {
+                maxLen = lenOfValue;
+                longValue = item;
+            }
         }
-        return new int[]{minElem, maxElem};
+        return new int[]{shortValue, longValue};
     }
 
     public static void main(String[] args) {
         int[] values = ValuesFromConsole.numsFromConsole();
 
-        int[] resMinMax = minMax(values);
+        int[] resMinMax = shortLong(values);
 
         System.out.println("Самое короткое = " + resMinMax[0] + ", длина = " + String.valueOf(resMinMax[0]).length());
         System.out.println("Самое длинное = " + resMinMax[1] + ", длина = " + String.valueOf(resMinMax[1]).length());

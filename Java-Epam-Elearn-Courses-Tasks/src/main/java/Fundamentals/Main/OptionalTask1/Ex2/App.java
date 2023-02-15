@@ -7,33 +7,40 @@ import Fundamentals.Main.OptionalTask1.ValuesFromConsole;
  * Вывести числа в порядке возрастания (убывания) значений их длины.
  */
 
-public class Ex2 {
+public class App {
+    public static int[] sortedByLength(int[] nums) {
+        if (nums == null) return null;
 
-    public static void main(String[] args) {
-        int[] values = ValuesFromConsole.numsFromConsole();
-        int count = values.length;
-
+        int count = nums.length;
         int[] lenValues = new int[count];
+
         for (int i = 0; i < count; i++)
-            lenValues[i] = String.valueOf(values[i]).length();
+            lenValues[i] = String.valueOf(nums[i]).length();
 
         // сортировка вставкой
         for (int out = 1; out < count; out++) {
             int in = out;
             int tempLenValue = lenValues[out];
-            int tempValue = values[out];
+            int tempValue = nums[out];
 
             while (in > 0 && lenValues[in - 1] > tempLenValue) {
                 lenValues[in] = lenValues[in - 1];
-                values[in] = values[in - 1];
+                nums[in] = nums[in - 1];
                 in--;
             }
 
             lenValues[in] = tempLenValue;
-            values[in] = tempValue;
+            nums[in] = tempValue;
         }
 
-        for (int v : values)
-            System.out.println(v);
+        return nums;
+    }
+
+    public static void main(String[] args) {
+        int[] values = ValuesFromConsole.numsFromConsole();
+        int[] res =  sortedByLength(values);
+
+        for (int item : res)
+            System.out.println(item);
     }
 }
