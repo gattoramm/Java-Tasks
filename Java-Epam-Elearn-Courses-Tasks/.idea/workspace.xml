@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a3661b-c3f2-4953-ade8-8ed5366a98fa" name="Changes" comment="Вынес проект Java-RealWorldSoftwareDevelopmentBook как отдельный">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask1/Ex3/AppTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask1/Ex4/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex3/Ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex3/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask1/Ex2/AppTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fundamentals/Main/OptionalTask1/Ex2/AppTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex4/Ex4_withTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fundamentals/Main/OptionalTask1/Ex4/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +66,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Fundamentals.Main.OptionalTask2.Ex1_3" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Fundamentals.Main.OptionalTask1.Ex4" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTests.testWithRandom2ValuesInMassive">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex3.App" />
-      <module name="Java-Epam-Elearn-Courses-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppTest.testWithRandomElementInMassive">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -117,64 +107,80 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="AppTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex2.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex2" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex2.AppTests" />
+      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex4" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4.AppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTests.testIncreasesNegativeElementsInMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testOneMaxLongElementInMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex2.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex2" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex2.AppTests" />
-      <option name="METHOD_NAME" value="testIncreasesNegativeElementsInMassive" />
+      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex4" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4.AppTest" />
+      <option name="METHOD_NAME" value="testOneMaxLongElementInMassive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTests.testWithRandom1ValuesInMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testOneNegativeElementInMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex3.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex3.AppTests" />
-      <option name="METHOD_NAME" value="testWithRandom1ValuesInMassive" />
+      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex4" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4.AppTest" />
+      <option name="METHOD_NAME" value="testOneNegativeElementInMassive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTests.testWithRandom2ValuesInMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testTwoEqualsElementInMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Epam-Elearn-Courses-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex3.*" />
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex3" />
-      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex3.AppTests" />
-      <option name="METHOD_NAME" value="testWithRandom2ValuesInMassive" />
+      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex4" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4.AppTest" />
+      <option name="METHOD_NAME" value="testTwoEqualsElementInMassive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testWithRandomElementInMassive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-Epam-Elearn-Courses-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fundamentals.Main.OptionalTask1.Ex4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Fundamentals.Main.OptionalTask1.Ex4" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Main.OptionalTask1.Ex4.AppTest" />
+      <option name="METHOD_NAME" value="testWithRandomElementInMassive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTests.testWithRandom2ValuesInMassive" />
-        <item itemvalue="JUnit.AppTests.testWithRandom1ValuesInMassive" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTests" />
-        <item itemvalue="JUnit.AppTests.testIncreasesNegativeElementsInMassive" />
+        <item itemvalue="JUnit.AppTest.testWithRandomElementInMassive" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.testTwoEqualsElementInMassive" />
+        <item itemvalue="JUnit.AppTest.testOneNegativeElementInMassive" />
+        <item itemvalue="JUnit.AppTest.testOneMaxLongElementInMassive" />
       </list>
     </recent_temporary>
   </component>
