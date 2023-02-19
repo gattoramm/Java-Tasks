@@ -47,7 +47,7 @@ public class AppTest {
     @DisplayName("Массив с несколькими элементами")
     public void testWithRandomElementInMassive() {
         int[] t = new int[]
-                {12245324563, 857436362, 22345643535, 2214552362};
-        assertEquals(857436362345L, App.differentDigitsInNumber(t));
+                {1224532456, 857436362, 234564355, 221455232};
+        assertEquals(234564355, App.differentDigitsInNumber(t));
     }
 }
