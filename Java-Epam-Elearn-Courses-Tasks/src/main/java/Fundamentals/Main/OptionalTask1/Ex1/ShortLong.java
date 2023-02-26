@@ -1,6 +1,10 @@
 package Fundamentals.Main.OptionalTask1.Ex1;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.IntSummaryStatistics;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 class ShortLong {
     public static int[] shortLong_Array(int[] nums) {
@@ -18,7 +22,7 @@ class ShortLong {
                 minLen = lenOfValue;
                 shortValue = item;
             }
-            if (maxLen <= lenOfValue) {
+            if (maxLen < lenOfValue) {
                 maxLen = lenOfValue;
                 longValue = item;
             }
@@ -30,19 +34,13 @@ class ShortLong {
         if (nums == null)
             return null;
 
-        int[] numsString = new int[nums.length];
+        int[] numsLength = new int[nums.length];
+
         for (int i = 0; i < nums.length; i++)
-            numsString[i] = String.valueOf(nums[i]).length();
+            numsLength[i] = String.valueOf(nums[i]).length();
 
-        int shortLengthNum = Arrays.stream(nums)
-                .mapToObj(i -> ((Integer) i).toString())
-                .mapToInt(String::length)
-                .min().orElseThrow();
-
-        int longLengthNum = Arrays.stream(nums)
-                .mapToObj(i -> ((Integer) i).toString())
-                .mapToInt(String::length)
-                .max().orElseThrow();
+        int shortLengthNum = Arrays.stream(numsLength).min().orElseThrow();
+        int longLengthNum = Arrays.stream(numsLength).max().orElseThrow();
 
         int shortNum = Arrays.stream(nums)
                 .filter(x->((Integer) x).toString().length() == shortLengthNum)

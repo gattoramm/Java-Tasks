@@ -40,7 +40,7 @@ public class AppTests {
     public void testTwoElementsWithEqualsOfLengthAndDifferenceSignInMassive_Array() {
         int[] t = new int[]{-2, 22};
         assertEquals(-2, ShortLong.shortLong_Array(t)[0]);
-        assertEquals(22, ShortLong.shortLong_Array(t)[1]);
+        assertEquals(-2, ShortLong.shortLong_Array(t)[1]);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class AppTests {
     public void testTwoElementsWithEqualsOfLengthAndDifferenceSignInMassive_Stream() {
         int[] t = new int[]{-2, 22};
         assertEquals(-2, ShortLong.shortLong_Stream(t)[0]);
-        assertEquals(22, ShortLong.shortLong_Stream(t)[1]);
+        assertEquals(-2, ShortLong.shortLong_Stream(t)[1]);
     }
 
     @Test
