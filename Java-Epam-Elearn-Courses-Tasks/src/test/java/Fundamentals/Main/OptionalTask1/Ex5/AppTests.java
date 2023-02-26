@@ -54,4 +54,12 @@ public class AppTests {
         assertEquals(2, App.onlyEvenCountAndEqualOddAndEven(t)[0]);
         assertEquals(0, App.onlyEvenCountAndEqualOddAndEven(t)[1]);
     }
+
+    @Test
+    @DisplayName("4 различных числа")
+    public void testFourPositiveEvalElementsInMassive111() {
+        int[] t = new int[]{224246, 85743636, 234564355, 221455232};
+        assertEquals(1, App.onlyEvenCountAndEqualOddAndEven(t)[0]);
+        assertEquals(1, App.onlyEvenCountAndEqualOddAndEven(t)[1]);
+    }
 }

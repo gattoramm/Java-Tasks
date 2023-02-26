@@ -33,9 +33,7 @@ public class App {
     }
 
     public static void main(String[] args) throws NullPointerException {
-//        int[] values = ValuesFromConsole.numsFromConsole();
-        int[] values = new int[]
-                {224246, 85743636, 234564355, 221455232};
+        int[] values = ValuesFromConsole.numsFromConsole();
         int[] res = onlyEvenCountAndEqualOddAndEven(values);
         System.out.println(res[0]);
         System.out.println(res[1]);
