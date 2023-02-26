@@ -8,34 +8,20 @@ import Fundamentals.Main.OptionalTask1.ValuesFromConsole;
  */
 
 public class App {
-    public static int[] shortLong(int[] nums) {
-        if (nums == null) return null;
-
-        int lenOfValue = String.valueOf(nums[0]).length();
-        int minLen = lenOfValue, maxLen = lenOfValue;
-        int shortValue = nums[0], longValue = nums[0];
-
-        for (int item:nums) {
-            lenOfValue = String.valueOf(item).length();
-
-            if (minLen > lenOfValue) {
-                minLen = lenOfValue;
-                shortValue = item;
-            }
-            if (maxLen <= lenOfValue) {
-                maxLen = lenOfValue;
-                longValue = item;
-            }
-        }
-        return new int[]{shortValue, longValue};
-    }
-
     public static void main(String[] args) {
         int[] values = ValuesFromConsole.numsFromConsole();
 
-        int[] resMinMax = shortLong(values);
+        int[] shortLongValues1 = ShortLong.shortLong_Array(values);
+        int[] shortLongValues2 = ShortLong.shortLong_Stream(values);
 
-        System.out.println("Самое короткое = " + resMinMax[0] + ", длина = " + String.valueOf(resMinMax[0]).length());
-        System.out.println("Самое длинное = " + resMinMax[1] + ", длина = " + String.valueOf(resMinMax[1]).length());
-        }
+        System.out.println("With Arrays:");
+        System.out.println("Самое короткое = " + shortLongValues1[0] + ", длина = " + String.valueOf(shortLongValues1[0]).length());
+        System.out.println("Самое длинное = " + shortLongValues1[1] + ", длина = " + String.valueOf(shortLongValues1[1]).length());
+        System.out.println("------------------");
+
+        System.out.println("With Streams:");
+        System.out.println("Самое короткое = " + shortLongValues2[0] + ", длина = " + String.valueOf(shortLongValues2[0]).length());
+        System.out.println("Самое длинное = " + shortLongValues2[1] + ", длина = " + String.valueOf(shortLongValues2[1]).length());
+        System.out.println("------------------");
+    }
 }
